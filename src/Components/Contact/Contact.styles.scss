@@ -1,0 +1,80 @@
+.Contact {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-image: url("../../assets/background.png");
+
+  .text {
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+}
+
+.wrapper {
+  width: 65%;
+  display: flex;
+  margin: 0px auto 0;
+}
+
+img {
+  height: 50vh;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Contact {
+    justify-content: center;
+  }
+
+  .text {
+    padding-top: 15px !important;
+    padding-left: 10px;
+  }
+
+  img {
+    height: 33vh;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+ 
+  img {
+    height: 33vh;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+ 
+  img {
+    height: 33vh;
+    padding-top: 85px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 16px;
+  }
+  p{
+    font-size: 14px;
+  }
+  img {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .text {
+    padding-top: 70px !important;
+    padding-left: 10px;
+  }
+
+  img {
+    display: none !important;
+  }
+}

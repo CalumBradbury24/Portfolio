@@ -13,7 +13,7 @@ class NavBar extends React.Component {
             to="Contact"
             spy={true}
             smooth={true}
-            offset={-90}
+            offset={-83}
             duration={600}
             isDynamic={true}
           >
@@ -25,7 +25,7 @@ class NavBar extends React.Component {
             to="About-me"
             spy={true}
             smooth={true}
-            offset={-90}
+            offset={-86}
             duration={600}
             isDynamic={true}
           >
@@ -37,7 +37,7 @@ class NavBar extends React.Component {
             to="Resume"
             spy={true}
             smooth={true}
-            offset={-90}
+            offset={-86}
             duration={600}
             isDynamic={true}
           >
@@ -49,7 +49,7 @@ class NavBar extends React.Component {
             to="Portfolio"
             spy={true}
             smooth={true}
-            offset={-90}
+            offset={-60}
             duration={600}
             isDynamic={true}
           >
