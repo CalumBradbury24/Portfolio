@@ -1,0 +1,26 @@
+   
+.nav {
+    position: fixed; 
+    width: 100%;  
+    
+      
+  .list{
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+      justify-content: center;
+  
+  }
+      .navbar-item{
+          padding: 15px;
+          cursor: pointer;
+         
+      }
+  }
+  
+  .sticky{
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+
