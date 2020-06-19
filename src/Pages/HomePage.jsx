@@ -13,8 +13,8 @@ const HomePage = () => {
         <AboutMe />
         <Resume />
         <Portfolio />
-        <div>Footer</div>
       </div>
+      <div className='footer'></div>
     </div>
   );
 };
