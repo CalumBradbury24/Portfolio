@@ -1,0 +1,59 @@
+.custom-button{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #c4ffcb;
+    border: 2px solid #c4ffcb;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 200px;
+    
+    
+}
+
+span{
+   color:black;
+}
+.custom-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .custom-button span:after {
+    content: '\21D3'; 
+    width : 15px;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+
+.custom-button:hover span {
+    padding-right: 25px;
+    
+  }
+  
+  .custom-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+svg{
+    height: 5vh;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    color: rgb(240, 144, 0);
+  }

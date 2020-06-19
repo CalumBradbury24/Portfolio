@@ -49,7 +49,7 @@ class NavBar extends React.Component {
             to="Portfolio"
             spy={true}
             smooth={true}
-            offset={-60}
+            offset={-86}
             duration={600}
             isDynamic={true}
           >

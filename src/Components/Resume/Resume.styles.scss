@@ -1,4 +1,28 @@
 .Resume{
-    
-    padding-bottom: 500px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: solid 1px;
+  
+}
+
+.vertical-timeline::before{
+    background: black !important;
+}
+
+.educationTitle{
+    display: flex;
+    justify-content: center;
+    color:grey ;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    color:grey ;
+}
+
+@media screen and (max-width: 768px) {
+    .Title{
+        justify-content: flex-start;
+    }
 }
