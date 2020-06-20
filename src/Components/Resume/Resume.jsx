@@ -8,13 +8,13 @@ const Resume = () => {
   return (
     <div className="Resume">
       <h2>Resume</h2>
-      <h4 className="educationTitle">EDUCATION</h4>
+      <h4 className="Title">EDUCATION</h4>
       <EducationTimeline />
       <br />
-      <h4 className="educationTitle">EMPLOYMENT</h4>
+      <h4 className="Title">EMPLOYMENT</h4>
       <EmploymentTimeline />
       <br />
-      <h4 className="Title shrink">GENERAL SKILLS</h4>
+      <h4 className="Title">GENERAL SKILLS</h4>
       <AdditionalSkills />
     </div>
   );
