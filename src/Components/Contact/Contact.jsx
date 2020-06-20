@@ -5,7 +5,7 @@ import Pic from "../../assets/portfolio.jpg";
 const Contact = () => {
   return (
     <div className="Contact">
-      <div className= 'wrapper'>
+      <div className= 'wrapper animated zoomIn delay-1s'>
         <img src={Pic} alt="Author"/>
         <div className="text">
           <h1>Calum Bradbury</h1>
