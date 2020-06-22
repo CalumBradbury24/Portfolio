@@ -24,7 +24,7 @@ const Ecommerce = () => {
         <h3>This project can be found at:</h3>
         <p className="stack-item"><a href='https://phoenix-live.herokuapp.com/'>https://phoenix-live.herokuapp.com/ </a></p>
         <span>
-        <a href="https://github.com/CalumBradbury24/Portfolio">
+        <a href="https://github.com/CalumBradbury24/Pheonix-Clothing">
           <Logo />
         </a>
         </span>

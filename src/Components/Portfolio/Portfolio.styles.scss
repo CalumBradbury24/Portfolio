@@ -1,4 +1,26 @@
 .Portfolio{
     border-top: solid 1px;
     padding-bottom: 20px;
+
+
+    .options{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-bottom: 25px;
+    }
+
+    .option{
+        cursor: pointer;
+        color:grey ;
+    }
+
+    .option:hover{
+        color: rgb(2, 167, 30);
+    }
+
+    .title{
+        margin-bottom: 0px;
+    }
+
 }
