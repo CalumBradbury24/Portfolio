@@ -1,110 +1,109 @@
 .Ecommerce {
-    border: solid 1px whitesmoke;
+  border: solid 1px whitesmoke;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+    cursor: default !important;
+  img {
+    padding: 0;
+    height: 60vh;
+    width: 35vw;
+  }
+  div {
+    padding-top: 55px;
+    background: aliceblue;
+  }
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h2 {
     display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-      cursor: default !important;
+    justify-content: left;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+  h3 {
+    display: flex;
+    justify-content: left;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+  svg {
+    padding-top: 100px;
+    cursor: pointer;
+  }
+
+  span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .stack-item {
+    border: solid 2px aliceblue;
+    width: fit-content;
+  }
+
+  @media screen and (max-width: 1400px) {
     img {
-      padding: 0;
-      height: 60vh;
+      height: 45vh;
       width: 35vw;
     }
     div {
-      padding-top: 55px;
-      background: aliceblue;
-    }
-    p {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  
-    h2 {
-      display: flex;
-      justify-content: left;
-      margin-bottom: 0px;
-      margin-left: 20px;
-    }
-    h3 {
-      display: flex;
-      justify-content: left;
       padding-top: 0px;
-      margin-top: 20px;
-      margin-bottom: 0px;
-      margin-left: 20px;
     }
     svg {
-      padding-top: 100px;
-      cursor: pointer;
-    }
-  
-    span {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .stack {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: left;
-    }
-    .stack-item {
-      border: solid 2px aliceblue;
-      width: fit-content;
-    }
-  
-    @media screen and (max-width: 1400px) {
-      img {
-        height: 45vh;
-        width: 35vw;
-      }
-      div {
         padding-top: 0px;
-      }
-      svg {
-          padding-top: 0px;
-         
-        }
-        p {
-          margin-right: 10px;
-        }
-    }
-  
-    @media screen and (max-width: 1160px) {
-      p {
-          margin-right: 0px;
-        }
-    }
-  
-    @media screen and (max-width: 1028px) {
-      img {
-        padding: 0;
-        height: 35vh;
-        width: 35vw;
-      }
-  
-      div {
-        padding-top: 0px;
+       
       }
       p {
-        margin-left: 10px;
+        margin-right: 10px;
+      }
+  }
+
+  @media screen and (max-width: 1160px) {
+    p {
         margin-right: 0px;
       }
-      h2 {
-        margin-left: 10px;
-      }
-      h3 {
-        margin-left: 10px;
-        margin-top: 0;
-      }
+  }
+
+  @media screen and (max-width: 1028px) {
+    img {
+      padding: 0;
+      height: 35vh;
+      width: 35vw;
     }
-  
+
+    div {
+      padding-top: 0px;
+    }
+    p {
+      margin-left: 10px;
+      margin-right: 0px;
+    }
+    h2 {
+      margin-left: 10px;
+    }
+    h3 {
+      margin-left: 10px;
+      margin-top: 0;
+    }
   }
-  
-  .Ecommerce:hover {
-    cursor: pointer;
-    transform: scale(1.04);
-    transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    box-shadow: 1px 1px 2px 2px whitesmoke;
-  }
-  
+
+}
+
+.Ecommerce:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  box-shadow: 1px 1px 2px 2px whitesmoke;
+}

@@ -3,7 +3,6 @@
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
-
     cursor: default !important;
   img {
     padding: 0;
@@ -50,8 +49,7 @@
     justify-content: left;
   }
   .stack-item {
-    border: solid 2px aliceblue;
-    width: fit-content;
+     width: fit-content;
   }
 
   @media screen and (max-width: 1400px) {

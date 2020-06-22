@@ -25,7 +25,7 @@ const AirQualityMonitor = () => {
         </span>
         <h3>This project can be found at:</h3>
         <p className="stack-item"><a href='https://phoenix-live.herokuapp.com/'>https://phoenix-live.herokuapp.com/ </a></p>
-        <span>
+        <span className='image'>
         <a href="https://github.com/CalumBradbury24/Portfolio">
           <Logo />
         </a>

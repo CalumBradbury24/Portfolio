@@ -1,27 +1,43 @@
-  .nav {
-    position: fixed; 
-    width: 100%;  
-    background-color: whitesmoke;
-    z-index: 500;
-    
-  .list{
-      display: flex;
-      flex-wrap: wrap;
-      list-style-type: none;
-      justify-content: space-evenly;
-    
-  
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: whitesmoke;
+  z-index: 500;
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
   }
-      .navbar-item{
-          padding: 15px;
-          cursor: pointer;
-         
-      }
-  }
-  
-  .sticky{
-      position: fixed;
-      top: 0;
-      width: 100%;
+  .navbar-item {
+    padding: 10px;
+    cursor: pointer;
   }
 
+  .navbar-item:hover{
+    color: rgb(255, 196, 0);
+  }
+
+  .default{
+    color:black ;
+}
+
+.stayOrange{
+    color: orange;
+}
+
+@media screen and (max-width: 450px) {
+    font-size: 12.8px;
+    
+    .list {
+        justify-content: center;
+      }
+    }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

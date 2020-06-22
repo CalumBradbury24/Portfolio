@@ -1,111 +1,160 @@
-.Ecommerce {
-    border: solid 1px whitesmoke;
+.Thesis {
+  border: solid 1px whitesmoke;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  
+  cursor: default !important;
+  .thesis-image {
+    padding: 0;
+    height: 60vh;
+    width: 30vw;
+  }
+
+.pad{
+  padding-top: 0px !important;
+}
+
+  .container {
+    padding-top: 55px;
+  
+  }
+  div{
+    background: rgb(215, 255, 215);
+  }
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h2 {
     display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
+    justify-content: left;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  h3 {
+    display: flex;
+    justify-content: left;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+ 
+
+  span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .stack3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-bottom: 200px;
+  }
+  .stack-item3 {
+    width: fit-content;
+    margin-bottom: 5px;
   
-      cursor: default !important;
-    img {
-      padding: 0;
-      height: 60vh;
-      width: 35vw;
+  }
+  @media screen and (max-width: 1800px){
+    .stack3 {
+            padding-bottom: 170px;
     }
-    div {
-      padding-top: 55px;
-      background: aliceblue;
-    }
-    p {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
+  }
   
-    h2 {
-      display: flex;
-      justify-content: left;
-      margin-bottom: 0px;
-      margin-left: 20px;
+
+ 
+  
+  @media screen and (max-width: 1600px){
+    .stack3 {
+            padding-bottom: 130px;
     }
-    h3 {
-      display: flex;
-      justify-content: left;
+  }
+  @media screen and (max-width: 1500px){
+    .stack3 {
+            padding-bottom: 120px;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    .thesis-image {
+      height: 35vh;
+      width: 30vw;
+    }
+    .container{
       padding-top: 0px;
-      margin-top: 20px;
-      margin-bottom: 0px;
-      margin-left: 20px;
     }
     svg {
-      padding-top: 100px;
-      cursor: pointer;
+      padding-top: 0px;
     }
-  
-    span {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+    p {
+      margin-right: 10px;
     }
-  
-    .stack {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: left;
-    }
-    .stack-item {
-      border: solid 2px aliceblue;
-      width: fit-content;
-    }
-  
-    @media screen and (max-width: 1400px) {
-      img {
-        height: 45vh;
-        width: 35vw;
-      }
-      div {
-        padding-top: 0px;
-      }
-      svg {
-          padding-top: 0px;
-         
-        }
-        p {
-          margin-right: 10px;
-        }
-    }
-  
-    @media screen and (max-width: 1160px) {
-      p {
-          margin-right: 0px;
-        }
-    }
-  
-    @media screen and (max-width: 1028px) {
-      img {
-        padding: 0;
-        height: 35vh;
-        width: 35vw;
-      }
-  
-      div {
-        padding-top: 0px;
-      }
-      p {
-        margin-left: 10px;
-        margin-right: 0px;
-      }
-      h2 {
-        margin-left: 10px;
-      }
-      h3 {
-        margin-left: 10px;
-        margin-top: 0;
-      }
-    }
-  
+    .stack3 {
+      padding-bottom: 90px;
+}
   }
-  
-  .Ecommerce:hover {
-    cursor: pointer;
-    transform: scale(1.04);
-    transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    box-shadow: 1px 1px 2px 2px whitesmoke;
+  @media screen and (max-width: 1200px){
+    .stack3 {
+      padding-bottom: 80px;
+}
+  @media screen and (max-width: 1160px) {
+    p {
+      margin-right: 0px;
+    }
+    .stack3 {
+      padding-bottom: 70px;
+}
+.stack-item3 {
+    margin-top: 5px;
+}
   }
-  
+
+  @media screen and (max-width: 1065px) {
+    .stack3 {
+      padding-bottom: 40px;
+}
+  }
+  @media screen and (max-width: 1005px) {
+    .stack3 {
+      padding-bottom: 20px;
+}
+  }
+ 
+  }
+  @media screen and (max-width: 1028px) {
+    img {
+      padding: 0;
+      height: 30vh;
+      width: 30vw;
+    }
+
+    h2 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    
+    
+    h3 {
+      margin-left: 10px;
+      margin-top: 0;
+    }
+  }
+ 
+}
+
+.Thesis:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  box-shadow: 1px 1px 2px 2px whitesmoke;
+}

@@ -23,8 +23,8 @@ const Ecommerce = () => {
         </span>
         <h3>This project can be found at:</h3>
         <p className="stack-item"><a href='https://phoenix-live.herokuapp.com/'>https://phoenix-live.herokuapp.com/ </a></p>
-        <span>
-        <a href="https://github.com/CalumBradbury24/Pheonix-Clothing">
+        <span className='ima'>
+        <a href="https://github.com/CalumBradbury24/Phoenix-Clothing">
           <Logo />
         </a>
         </span>

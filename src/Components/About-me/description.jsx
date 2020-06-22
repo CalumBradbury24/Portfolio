@@ -14,13 +14,12 @@ const Description = () => {
         improve existing ones further.
         <br />
         <br />
-        In my free time I love to dance as a Member of the University of
-        Nottingham DanceSport Team. I have competed in multiple national
-        Ballroom & Latin dance competitions, including the Inter Varsity Dance
-        Championships (IVDC) at the Winter Gardens in Blackpool. I also enjoy
-        working on personal software and electronics related projects, may of
-        which can be viewed on this website. (include guitar/maybe LED cube? etc). have 
-        selection menu to view web apps or additional projects.
+        In my free time I enjoy working on my own technology related personal
+        projects, a number of which can be found here. I also love to dance! As a
+        Member of the University of Nottingham DanceSport Team I have competed
+        in multiple national Ballroom & Latin dance competitions. Including the
+        Inter Varsity Dance Championships (IVDC) at the Winter Gardens in
+        Blackpool. 
       </p>
       <img style={{ padding: "0" }} src={dance} alt="dance"></img>
     </div>

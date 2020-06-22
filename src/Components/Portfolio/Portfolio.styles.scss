@@ -15,8 +15,28 @@
         color:grey ;
     }
 
-    .option:hover{
-        color: rgb(2, 167, 30);
+    .default{
+        color:grey ;
+    }
+
+    .stayOrange{
+        color: rgb(243, 210, 20);
+    }
+    .stayBlue{
+        color: rgb(2, 27, 167);
+    }
+    .stayGreen{
+        color:  rgb(2, 167, 30);
+    }
+
+    .orange:hover{
+        color: rgb(243, 210, 20);
+    }
+    .blue:hover{
+        color: rgb(2, 27, 167);
+    }
+    .green:hover{
+        color:  rgb(2, 167, 30);
     }
 
     .title{
