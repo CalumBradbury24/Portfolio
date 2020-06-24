@@ -15,25 +15,25 @@
     cursor: pointer;
   }
 
-  .navbar-item:hover{
+  .navbar-item:hover {
     color: rgb(255, 196, 0);
   }
 
-  .default{
-    color:black ;
-}
+  .default {
+    color: black;
+  }
 
-.stayOrange{
+  .stayOrange {
     color: orange;
-}
+  }
 
-@media screen and (max-width: 450px) {
+  @media screen and (max-width: 450px) {
     font-size: 12.8px;
-    
+
     .list {
-        justify-content: center;
-      }
+      justify-content: center;
     }
+  }
 }
 
 .sticky {

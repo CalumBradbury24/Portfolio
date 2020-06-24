@@ -23,6 +23,11 @@ const AirQualityMonitor = () => {
           <p className="stack-item">MongoDB</p>
           <p className="stack-item">Express.js</p>
         </span>
+        <h3>Hardware:</h3>
+        <span className="stack">
+          <p className="stack-item">Raspberry Pi 3 Model B+</p>
+          <p className="stack-item">Particulate Matter Sensor</p>         
+        </span>
         <h3>This project can be found at:</h3>
         <p className="stack-item"><a href='https://phoenix-live.herokuapp.com/'>https://phoenix-live.herokuapp.com/ </a></p>
         <span className='image'>

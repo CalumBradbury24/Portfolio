@@ -32,8 +32,11 @@
     margin-bottom: 0px;
     margin-left: 20px;
   }
+  .image{
+    padding-top: 0px;
+  }
   svg {
-    padding-top: 100px;
+    
     cursor: pointer;
   }
 
@@ -49,8 +52,7 @@
     justify-content: left;
   }
   .stack-item {
-    border: solid 2px aliceblue;
-    width: fit-content;
+     width: fit-content;
   }
 
   @media screen and (max-width: 1400px) {
