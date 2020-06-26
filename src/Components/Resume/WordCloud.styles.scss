@@ -1,0 +1,19 @@
+
+   .size{
+       display: flex;
+       justify-content: center;  
+
+   } 
+
+   .font{
+    height: 350px; 
+    width: 700px;
+   }
+
+   @media screen and (max-width: 800px) {
+    .font{
+        height: 50vh; 
+        width: 75vw;
+       }
+   
+  }

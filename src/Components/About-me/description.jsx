@@ -1,6 +1,6 @@
 import React from "react";
 import "./description.styles.scss";
-import dance from "../../assets/dance.jpeg";
+
 
 const Description = () => {
   return (
@@ -20,7 +20,6 @@ const Description = () => {
         dance competitions. Including the Inter Varsity Dance Championships
         (IVDC) at the Winter Gardens in Blackpool.
       </p>
-      <img style={{ padding: "0" }} src={dance} alt="dance"></img>
     </div>
   );
 };

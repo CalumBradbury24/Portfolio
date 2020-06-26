@@ -2,7 +2,7 @@ import React from "react";
 import "./Resume.styles.scss";
 import EducationTimeline from "./EducationTimeline";
 import EmploymentTimeline from "./EmploymentTimeline";
-import AdditionalSkills from './AdditionSkills';
+import WordCloud from './WordCloud';
 
 const Resume = () => {
   return (
@@ -15,7 +15,7 @@ const Resume = () => {
       <EmploymentTimeline />
       <br />
       <h4 className="Title">GENERAL SKILLS</h4>
-      <AdditionalSkills />
+      <WordCloud />
     </div>
   );
 };

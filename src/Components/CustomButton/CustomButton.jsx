@@ -5,7 +5,7 @@ const CustomButton = () => {
   return (
     <div className="custom-button">
       <span>
-        <a href="CalumBradburyCV.pdf" download>
+        <a href="Calum Bradbury CV.pdf" download>
           DOWNLOAD RESUME
         </a>
       </span>
