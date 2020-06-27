@@ -1,11 +1,11 @@
 export default [
     {
       text: 'C',
-      value: 35,
+      value: 25,
     },
     {
       text: 'C++',
-      value: 50,
+      value: 35,
     },
     {
       text: 'Assembly',
@@ -13,27 +13,27 @@ export default [
     },
     {
       text: 'Javascript',
-      value: 70,
+      value: 40,
     },
     {
       text: 'HTML5',
-      value: 55,
+      value: 40,
     },
     {
       text: 'CSS3',
-      value: 46,
+      value: 32,
     },
     {
       text: 'React.js',
-      value: 58,
+      value: 43,
     },
     {
       text: 'Node.js',
-      value: 30,
+      value: 25,
     },
     {
       text: 'Python',
-      value: 54,
+      value: 40,
     },
     {
       text: 'MATLAB',
@@ -45,7 +45,7 @@ export default [
     },
     {
       text: 'SOLIDWORKS',
-      value: 31,
+      value: 20,
     },
     {
       text: 'Full UK Driving License',
@@ -61,7 +61,7 @@ export default [
     },
     {
       text: 'Sass',
-      value: 36,
+      value: 30,
     },
   ];
   

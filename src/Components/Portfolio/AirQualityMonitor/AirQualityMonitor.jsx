@@ -6,7 +6,7 @@ import { ReactComponent as Logo } from "../../../assets/github.svg";
 const AirQualityMonitor = () => {
   return (
     <div className="Ecommerce ">
-      <img alt="Air Monitor Application" />
+      <img className = "air-image" alt="Air Monitor Application" />
       <div>
         <h2>Air Quality Monitor</h2>
         <p>
@@ -35,7 +35,7 @@ const AirQualityMonitor = () => {
             https://air-qual-monitor.herokuapp.com/
           </a>
         </p>
-        <span className="image">
+        <span className="git-image">
           <a href="https://github.com/CalumBradbury24/AirQualityMonitor">
             <Logo />
           </a>

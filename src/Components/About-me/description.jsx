@@ -1,16 +1,15 @@
 import React from "react";
 import "./description.styles.scss";
 
-
 const Description = () => {
   return (
     <div className="description">
       <p className="text">
-        I am a driven and adaptable Masters of Electrical & Electronic
-        Engineering (MEng) with a passion for software. Analytically minded and
-        very enthusiastic about technology, I have experience in a wide
-        assortment of software and programming languages and have a great desire
-        to learn new skills and improve existing ones further.
+        Hello I am Calum! A driven and adaptable Masters of Electrical &
+        Electronic Engineering (MEng) graduate with a passion for software and
+        writing code. Analytically minded and very enthusiastic about
+        technology, I have experience in a wide assortment of software and
+        programming languages.
         <br />
         <br />
         In my free time I enjoy working on my own technology related personal

@@ -1,90 +1,66 @@
 .Contact {
+  display: flex;
   padding-top: 10px;
-  padding-bottom: 20px;
-  background-image: url("../../assets/background.png");
+  background-color: #dbffe1;
 
   .text {
-    padding-top: 50px;
     padding-left: 30px;
   }
-
- 
 }
 
 .wrapper {
   width: 65%;
   display: flex;
+  justify-content: space-evenly;
   margin: 0px auto 0;
 }
 
-
-img {
-  height: 50vh;
-  padding-top: 40px;
+.image {
+  height: 30vh;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
-
 
 @media screen and (max-width: 1024px) {
   .Contact {
     justify-content: center;
   }
-
-  .text {
-    padding-top: 15px !important;
-    padding-left: 10px;
+  .image {
+    display: none !important;
   }
-
-  img {
-    height: 33vh;
-    padding-top: 50px;
+  .text {
+    padding-left: 0px !important;
   }
 }
 
 @media screen and (max-width: 800px) {
- 
-  img {
-    height: 33vh;
-    padding-top: 60px;
+  h1 {
+    font-size: 20px;
   }
-}
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
 
-@media screen and (max-width: 700px) {
- 
-  img {
-    height: 33vh;
-    padding-top: 85px;
-  }
 }
 
 @media screen and (max-width: 600px) {
-  h1{
-    font-size: 20px;
+  h1 {
+    font-size: 18px;
   }
-  h4{
-    font-size: 16px;
-  }
-  p{
+  h4 {
     font-size: 14px;
   }
-  img {
-    display: none !important;
+  p {
+    font-size: 12px;
   }
-  .text {
-    
-    padding-left: 0px !important ;
-  }
-
 }
 
 @media screen and (max-width: 467px) {
-  .text {
-    padding-top: 70px !important;
-    padding-left: 10px;
-  }
-
-  img {
-    display: none !important;
+  .Contact {
+    
+    padding-top: 30px;
   }
 }
-

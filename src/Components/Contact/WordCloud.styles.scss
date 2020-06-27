@@ -1,0 +1,47 @@
+
+   .size{
+       display: flex;
+       justify-content: center;  
+
+   } 
+
+   .font{
+    height:350px; 
+    width: 700px;
+   }
+
+   @media screen and (max-width: 1350px) {
+    .font{
+        width: 50vw;
+       }
+   
+  }
+  @media screen and (max-width: 1150px) {
+    .font{ 
+        height: 45vh;
+        width: 40vw;
+       }
+   
+  }
+
+  @media screen and (max-width: 1050px) {
+    .font{
+        //height: 35vh; 
+        width: 40vw;
+       }
+   
+  }
+  @media screen and (max-width: 900px) {
+    .font{
+       height: 35vh; 
+       
+       }
+   
+  }
+
+   @media screen and (max-width: 375px) {
+    .font{
+        display: none !important;
+       }
+   
+  }

@@ -4,7 +4,7 @@
   flex-wrap: nowrap;
   width: 100%;
     cursor: default !important;
-  img {
+  .air-image {
     padding: 0;
     height: 60vh;
     width: 35vw;
@@ -32,7 +32,7 @@
     margin-bottom: 0px;
     margin-left: 20px;
   }
-  .image{
+  .git-image{
     padding-top: 0px;
   }
   svg {
@@ -56,7 +56,7 @@
   }
 
   @media screen and (max-width: 1400px) {
-    img {
+    .air-image {
       height: 45vh;
       width: 35vw;
     }
@@ -79,7 +79,7 @@
   }
 
   @media screen and (max-width: 1028px) {
-    img {
+    .air-image {
       padding: 0;
       height: 35vh;
       width: 35vw;
@@ -100,6 +100,12 @@
       margin-top: 0;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .air-image {
+    display: none !important;
+  }
+}
 
 }
 
