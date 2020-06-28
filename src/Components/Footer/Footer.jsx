@@ -1,6 +1,6 @@
 import React from "react";
-import {ReactComponent as Logo} from '../../assets/github.svg';
-import './Footer.styles.scss';
+import { ReactComponent as Logo } from "../../assets/github.svg";
+import "./Footer.styles.scss";
 import Particles from "react-particles-js";
 
 const particlesOptions = {
@@ -29,11 +29,18 @@ const Footer = () => {
   return (
     <div className="footer">
       <Particles className="Particles" params={particlesOptions} />
-      <span className='padding'>
-        <a  href="https://github.com/CalumBradbury24" >
-         <Logo className='dimensions'/>
+      <div className="footer-text">
+        {" "}
+        <p className="margin">All work by Calum Bradbury.</p>
+        <p className="margin">
+          Site built using React.js, HTML & SASS and hosted with Heroku.
+        </p>
+      </div>
+      <div className="position-git">
+        <a href="https://github.com/CalumBradbury24">
+          <Logo className="dimensions" />
         </a>
-      </span>
+      </div>
     </div>
   );
 };

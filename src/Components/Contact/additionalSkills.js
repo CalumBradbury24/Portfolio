@@ -1,39 +1,39 @@
 export default [
     {
       text: 'C',
-      value: 25,
+      value: 21,
     },
     {
       text: 'C++',
-      value: 35,
-    },
-    {
-      text: 'Assembly',
-      value: 20,
-    },
-    {
-      text: 'Javascript',
-      value: 40,
-    },
-    {
-      text: 'HTML5',
-      value: 40,
-    },
-    {
-      text: 'CSS3',
-      value: 32,
-    },
-    {
-      text: 'React.js',
-      value: 43,
-    },
-    {
-      text: 'Node.js',
       value: 25,
     },
     {
+      text: 'Assembly',
+      value: 19,
+    },
+    {
+      text: 'Javascript',
+      value: 28,
+    },
+    {
+      text: 'HTML5',
+      value: 27,
+    },
+    {
+      text: 'CSS3',
+      value: 24,
+    },
+    {
+      text: 'React.js',
+      value: 29,
+    },
+    {
+      text: 'Node.js',
+      value: 22,
+    },
+    {
       text: 'Python',
-      value: 40,
+      value: 26,
     },
     {
       text: 'MATLAB',
@@ -41,27 +41,27 @@ export default [
     },
     {
       text: 'LUMERICAL',
-      value: 17,
+      value: 16,
     },
     {
       text: 'SOLIDWORKS',
-      value: 20,
+      value: 15,
     },
     {
       text: 'Full UK Driving License',
-      value: 23,
+      value: 17,
     },
     {
       text: 'Mathematics',
-      value: 20,
+      value: 15,
     },
     {
       text: 'Git',
-      value: 35,
+      value: 26,
     },
     {
       text: 'Sass',
-      value: 30,
+      value: 26,
     },
   ];
   

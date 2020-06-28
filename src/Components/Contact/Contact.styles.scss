@@ -7,6 +7,15 @@
     padding-left: 30px;
   }
 }
+.H1{
+  margin-bottom: 0px;
+}
+
+.H4{
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
 
 .wrapper {
   width: 65%;
@@ -21,6 +30,12 @@
   padding-bottom: 10px;
 }
 
+@media screen and (max-width: 1400px){
+  P{
+    margin-top: 10px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .Contact {
     justify-content: center;
@@ -30,6 +45,7 @@
   }
   .text {
     padding-left: 0px !important;
+    
   }
 }
 

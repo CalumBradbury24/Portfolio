@@ -63,7 +63,7 @@ class NavBar extends React.Component {
         className="nav sticky"
         style={{
           backgroundColor: this.state.status === "top" ? "#dbffe1" : "white",
-          border: this.state.status === "top" ? "none" : "",
+          border: this.state.status === "top" ? "solid 1px rgb(219, 255, 225)" : "",
         }}
       >
         <Particles className="particles" params={particlesOptions} />
