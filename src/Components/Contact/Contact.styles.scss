@@ -24,6 +24,13 @@
   margin: 0px auto 0;
 }
 
+@media screen and (max-width: 1024px) {
+ 
+  .wrapper {
+    width: 75%;  
+}
+}
+
 .image {
   height: 30vh;
   padding-top: 20px;
@@ -34,12 +41,6 @@
   P{
     margin-top: 10px;
   }
-}
-
-@media screen and (max-width: 1024px) {
-  .Contact {
-    justify-content: center;
-  }
   .image {
     display: none !important;
   }
@@ -47,6 +48,14 @@
     padding-left: 0px !important;
     
   }
+}
+
+@media screen and (max-width: 1024px) {
+  .Contact {
+    justify-content: center;
+  }
+  
+  
 }
 
 @media screen and (max-width: 800px) {

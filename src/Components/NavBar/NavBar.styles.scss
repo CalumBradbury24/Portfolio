@@ -10,6 +10,14 @@
     list-style-type: none;
     justify-content: space-evenly;
   }
+  @media screen and (max-width: 1024px) {
+ 
+    .list {
+      justify-content: space-around;  
+  }
+  }
+  
+
   .navbar-item {
     padding: 10px;
     cursor: pointer;
