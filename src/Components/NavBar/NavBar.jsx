@@ -1,29 +1,6 @@
 import React from "react";
 import "./NavBar.styles.scss";
-import Particles from "react-particles-js";
 import { Link } from "react-scroll";
-
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 400, //How many particles on screen
-      density: {
-        enable: true,
-        value_area: 1000,
-      },
-    },
-    color: "#e85656",
-    line_linked: {
-      enable_auto: false,
-      color: "#413d3d",
-      opacity: 0,
-    },
-    size: {
-      value: 3,
-      random: true,
-    },
-  },
-};
 
 class NavBar extends React.Component {
   state = {
@@ -62,11 +39,11 @@ class NavBar extends React.Component {
       <div
         className="nav sticky"
         style={{
-          backgroundColor: this.state.status === "top" ? "#dbffe1" : "white",
-          border: this.state.status === "top" ? "solid 1px rgb(219, 255, 225)" : "",
+          backgroundColor: this.state.status === "top" ? "rgb(192,255,187,1)" : "white",
+          border:
+            this.state.status === "top" ? "solid 1px rgb(192,255,187,1)" : "",
         }}
       >
-        <Particles className="particles" params={particlesOptions} />
         <ul className="list">
           <Link
             className={

@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.styles.scss";
 import Pic from "../../assets/portfolio.jpg";
 import WordCloud from './WordCloud';
+import { ReactComponent as Logo } from "../../assets/github.svg";
 const Contact = () => {
   return (
     <div className="Contact">
@@ -14,6 +15,13 @@ const Contact = () => {
           <p className ='P'><strong>PHONE:</strong> +44 7383514483</p>
           <p className ='P'><strong>EMAIL: </strong>cs.bradbury@outlook.com</p>
           <p className ='P'><strong>ADDRESS:</strong> 58 Priory Walk, Leicester, LE3 3PP</p>
+          <div className='position-git'>
+       
+          <a href="https://github.com/CalumBradbury24">
+            <Logo className="dimensions" />
+          </a>
+      
+      </div>
         </div>
         <div> 
         <WordCloud />

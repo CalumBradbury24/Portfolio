@@ -52,10 +52,6 @@ export default [
       value: 17,
     },
     {
-      text: 'Mathematics',
-      value: 15,
-    },
-    {
       text: 'Git',
       value: 26,
     },

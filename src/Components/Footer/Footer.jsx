@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Logo } from "../../assets/github.svg";
+
 import "./Footer.styles.scss";
 import Particles from "react-particles-js";
 
@@ -31,15 +31,10 @@ const Footer = () => {
       <Particles className="Particles" params={particlesOptions} />
       <div className="footer-text">
         {" "}
-        <p className="margin">All work by Calum Bradbury.</p>
-        <p className="margin">
-          Site built using React.js, HTML & SASS and hosted with Heroku.
+        <p className='margin'>Calum Bradbury.</p>
+        <p className='margin'>
+          Entire site built using React.js, HTML & SASS and hosted with Heroku.
         </p>
-      </div>
-      <div className="position-git">
-        <a href="https://github.com/CalumBradbury24">
-          <Logo className="dimensions" />
-        </a>
       </div>
     </div>
   );

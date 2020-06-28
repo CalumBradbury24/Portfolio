@@ -1,7 +1,8 @@
 .Contact {
   display: flex;
   padding-top: 10px;
-  background-color: #dbffe1;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(192,255,187,1) 0%, rgba(142,255,249,1) 75%, rgba(106,230,255,1) 100%);
 
   .text {
     padding-left: 30px;
@@ -15,7 +16,16 @@
   margin-bottom: 0px;
   margin-top: 5px;
 }
+.position-git {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
 
+.dimensions {
+  height: 5vh;
+  cursor: pointer;
+}
 
 .wrapper {
   width: 65%;
