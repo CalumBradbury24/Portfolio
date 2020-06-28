@@ -1,0 +1,74 @@
+.splash {
+  background: url(../../assets/background.jpg) no-repeat;
+  /* Keep the inherited background full size. */
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+ // width: 100%;
+  margin-top: -70px;
+}
+
+.container {
+  display: block;
+  width: 45rem;
+  height: 35rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+
+.portfolio-image {
+  height: 28vh;
+  padding-top: 25px;
+}
+
+.container:before {
+  content: "";
+
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 1000px rgb(255, 250, 250);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  margin: 0px;
+}
+
+.position-image {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.H1 {
+  margin-bottom: 0px;
+}
+
+.H4 {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.position-git {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.dimensions {
+  height: 5vh;
+  cursor: pointer;
+}

@@ -6,7 +6,7 @@ import { ReactComponent as Logo } from "../../../assets/github.svg";
 const Ecommerce = () => {
   return (
     <div className="Ecommerce ">
-      <img src={clothesPic} alt="Phoenix Clothing" />
+      <img className='eco-image' src={clothesPic} alt="Phoenix Clothing" />
       <div>
         <h2>Ecommerce Web Application</h2>
         <p>

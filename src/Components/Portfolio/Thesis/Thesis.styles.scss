@@ -152,6 +152,11 @@
       
     }
   }
+  @media screen and (max-width: 600px) {
+    .thesis-image {
+      display: none !important;
+    }
+}
  
 }
 

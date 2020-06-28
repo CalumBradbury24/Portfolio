@@ -31,9 +31,9 @@ const Footer = () => {
       <Particles className="Particles" params={particlesOptions} />
       <div className="footer-text">
         {" "}
-        <p className='margin'>Calum Bradbury.</p>
+        <p className='margin'>Built by Calum Bradbury</p>
         <p className='margin'>
-          Entire site built using React.js, HTML & SASS and hosted with Heroku.
+          using React.js, HTML & SASS and hosted with Heroku.
         </p>
       </div>
     </div>

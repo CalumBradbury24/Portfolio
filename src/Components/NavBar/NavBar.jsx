@@ -12,7 +12,7 @@ class NavBar extends React.Component {
   componentDidMount() {
     this.listener = document.addEventListener("scroll", () => {
       let scrolled = document.scrollingElement.scrollTop;
-      if (scrolled >= 350) {
+      if (scrolled >= 700) {
         if (this.state.status !== "moved") {
           this.setState({ status: "moved" });
         }
@@ -39,25 +39,27 @@ class NavBar extends React.Component {
       <div
         className="nav sticky"
         style={{
-          backgroundColor: this.state.status === "top" ? "rgb(192,255,187,1)" : "white",
+          background: this.state.status === "top" ? "" : "white",
           border:
-            this.state.status === "top" ? "solid 1px rgb(192,255,187,1)" : "",
-        }}
+            this.state.status === "top" ? "" : "solid 1px black",
+            color: this.state.status === "top" ? "white" : "black",
+            fontWeight:"bold"       
+           }}
       >
         <ul className="list">
           <Link
             className={
               "navbar-item " +
-              (isSelected === "Contact" ? "stayOrange" : "default")
+              (isSelected === "SplashScreen" ? "stayOrange" : "default")
             }
             activeClass="active"
-            to="Contact"
+            to="splash"
             spy={true}
             smooth={true}
             offset={-83}
             duration={600}
             isDynamic={true}
-            onClick={this.handleClick("Contact")}
+            onClick={this.handleClick("SplashScreen")}
           >
             CONTACT
           </Link>
