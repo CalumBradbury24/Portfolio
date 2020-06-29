@@ -1,13 +1,16 @@
 .splash {
   background: url(../../assets/background.jpg) no-repeat;
   /* Keep the inherited background full size. */
-  background-attachment: fixed;
+  background-attachment: fixed; //Breaks on ios
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
   display: grid;
   align-items: center;
   justify-content: center;
   height: 80vh;
- // width: 100%;
   margin-top: -70px;
 }
 
@@ -74,27 +77,26 @@
 }
 
 @media screen and (max-width: 950px) {
- 
-  .splash-container{
+  .splash{
+    background-attachment: unset; //Remove as breaks on ios devices
+  }
+  .splash-container {
     width: 35rem;
     height: 35rem;
   }
 }
 
 @media screen and (max-width: 600px) {
- 
-  .splash-container{
+  .splash-container {
     width: 30rem;
     height: 35rem;
   }
   .portfolio-image {
     height: 23vh;
   }
-  
 }
 @media screen and (max-width: 520px) {
- 
-  .splash-container{
+  .splash-container {
     width: 25rem;
     height: 28rem;
   }
@@ -102,31 +104,27 @@
     height: 20vh;
   }
   .H1 {
-    font-size:28px;
+    font-size: 28px;
   }
   .H4 {
-   font-size:14px ;
+    font-size: 14px;
   }
-  .P{
-    font-size:14px ;
+  .P {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 411px) {
- 
-  .splash-container{
+  .splash-container {
     width: 23rem;
   }
-
 }
 
-
 @media screen and (max-width: 400px) {
- 
-  .splash{
+  .splash {
     margin-top: -30px;
   }
 
-  .splash-container{
+  .splash-container {
     width: 19rem;
     height: 24rem;
   }
@@ -134,42 +132,35 @@
     height: 20vh;
   }
   .H1 {
-    font-size:24px;
+    font-size: 24px;
   }
   .H4 {
-   font-size:12px ;
+    font-size: 12px;
   }
-  .P{
-    font-size:12px ;
+  .P {
+    font-size: 12px;
   }
 }
 
-
 @media screen and (max-width: 360px) {
- 
-  .splash-container{
+  .splash-container {
     height: 22rem;
   }
-
 }
 
 @media screen and (max-width: 320px) {
- 
-  .splash-container{
+  .splash-container {
     width: 18rem;
     height: 20rem;
   }
 
   .H1 {
-    font-size:20px;
+    font-size: 20px;
   }
   .H4 {
-   font-size:10px ;
+    font-size: 10px;
   }
-  .P{
-    font-size:10px ;
+  .P {
+    font-size: 10px;
   }
-
-
 }
-
