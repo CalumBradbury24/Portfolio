@@ -1,7 +1,7 @@
 .splash {
-  background: url(../../assets/background.jpg) no-repeat;
+  background: url(../../assets/backgrounds.jpg) no-repeat;
   /* Keep the inherited background full size. */
-  background-attachment: fixed; //Breaks on ios
+ // background-attachment: fixed; //Breaks on ios
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

@@ -1,9 +1,12 @@
 .nav {
   position: fixed;
   width: 100%;
-  background: url(../../assets/background.jpg) no-repeat;
-  background-attachment: fixed; 
-	background-size: cover;
+  background: url(../../assets/backgrounds.jpg) no-repeat;
+ // background-attachment: fixed; 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   z-index: 500;
   border-top: none !important;
   border-left: none !important;
