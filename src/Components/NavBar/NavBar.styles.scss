@@ -21,11 +21,7 @@
       justify-content: space-around;  
   }
   }
-  @media screen and (max-width: 950px) {
-    .nav{
-      background-attachment: unset; //Remove as breaks on ios devices
-    }
-  }
+ 
   .navbar-item {
     padding: 10px;
     cursor: pointer;
@@ -66,3 +62,8 @@
   width: 100%;
 }
 
+@media screen and (max-width: 950px) {
+  .nav{
+    background-attachment: unset !important; //Remove as breaks on ios devices
+  }
+}
