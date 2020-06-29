@@ -10,29 +10,15 @@
     width: 700px;
    }
 
-   @media screen and (max-width: 1350px) {
-    .font{
-        width: 50vw;
-       }
    
-  }
-  @media screen and (max-width: 1150px) {
-    .font{ 
-        width: 40vw;
-       }
-   
+  @media screen and (max-width: 850px){
+      .font{
+          width: 60vw;
+      }
   }
 
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 414px){
     .font{
-        width: 40vw;
-       }
-   
-  }
- 
-   @media screen and (max-width: 375px) {
-    .font{
-        display: none !important;
-       }
-   
+        display: none;
+    }
   }

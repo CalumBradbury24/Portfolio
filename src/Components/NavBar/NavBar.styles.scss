@@ -44,6 +44,15 @@
     .list {
       justify-content: center;
     }
+
+    ul{
+      padding-inline-start: 0px;
+    }
+  }
+  @media screen and (max-width: 320px){
+    .navbar-item {
+      padding: 5px;
+    }
   }
 }
 

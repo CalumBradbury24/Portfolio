@@ -72,3 +72,104 @@
   height: 5vh;
   cursor: pointer;
 }
+
+@media screen and (max-width: 950px) {
+ 
+  .container{
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ 
+  .container{
+    width: 30rem;
+    height: 35rem;
+  }
+  .portfolio-image {
+    height: 23vh;
+  }
+  
+}
+@media screen and (max-width: 520px) {
+ 
+  .container{
+    width: 25rem;
+    height: 28rem;
+  }
+  .portfolio-image {
+    height: 20vh;
+  }
+  .H1 {
+    font-size:28px;
+  }
+  .H4 {
+   font-size:14px ;
+  }
+  .P{
+    font-size:14px ;
+  }
+}
+@media screen and (max-width: 411px) {
+ 
+  .container{
+    width: 23rem;
+  }
+
+}
+
+
+@media screen and (max-width: 400px) {
+ 
+  .splash{
+    margin-top: -30px;
+  }
+
+  .container{
+    width: 19rem;
+    height: 24rem;
+  }
+  .portfolio-image {
+    height: 20vh;
+  }
+  .H1 {
+    font-size:24px;
+  }
+  .H4 {
+   font-size:12px ;
+  }
+  .P{
+    font-size:12px ;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+ 
+  .container{
+    height: 22rem;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+ 
+  .container{
+    width: 18rem;
+    height: 20rem;
+  }
+
+  .H1 {
+    font-size:20px;
+  }
+  .H4 {
+   font-size:10px ;
+  }
+  .P{
+    font-size:10px ;
+  }
+
+
+}
+
