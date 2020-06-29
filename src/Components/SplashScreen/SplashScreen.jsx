@@ -6,7 +6,7 @@ import "./SplashScreen.styles.scss";
 const SplashScreen = () => {
   return (
     <div className="splash">
-      <div className="container ">
+      <div className="splash-container ">
         <div className="position-image animated zoomIn delay-1s">
           <img className="portfolio-image" src={PortfolioPic} alt="Author" />
         </div>

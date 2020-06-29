@@ -160,11 +160,9 @@
 }
  
 }
-
-
-
-@media screen and (max-width: 600px) {
-    .guitarImage {
-      display: none !important;
-    }
+.Guitar:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  box-shadow: 1px 1px 2px 2px whitesmoke;
 }
