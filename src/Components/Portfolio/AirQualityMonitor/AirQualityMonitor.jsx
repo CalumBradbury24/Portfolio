@@ -5,7 +5,7 @@ import { ReactComponent as Logo } from "../../../assets/github.svg";
 
 const AirQualityMonitor = () => {
   return (
-    <div className="Ecommerce ">
+    <div className="AirQual ">
       <img className = "air-image" alt="Air Monitor Application" />
       <div>
         <h2>Air Quality Monitor</h2>

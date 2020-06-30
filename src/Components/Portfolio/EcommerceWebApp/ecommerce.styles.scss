@@ -1,42 +1,41 @@
 .Ecommerce {
-  border: solid 1px whitesmoke;
+  border: solid 1px grey;
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
+  background-color: white;
     cursor: default !important;
     .eco-image {
     padding: 0;
-    height: 60vh;
-    width: 35vw;
+    height: 45vh;
   }
-  div {
-    padding-top: 55px;
+
+  .text-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
     background: aliceblue;
-  }
-  p {
-    margin-left: 20px;
-    margin-right: 20px;
+    border-left: solid 1px grey;
   }
 
   h2 {
     display: flex;
     justify-content: left;
     margin-bottom: 0px;
-    margin-left: 20px;
+
   }
-  h3 {
+  .ecommerce-stack {
     display: flex;
     justify-content: left;
     padding-top: 0px;
     margin-top: 20px;
     margin-bottom: 0px;
-    margin-left: 20px;
-  }
-  .ima{
-    padding-top: 100px;
   }
   svg {
-   
+    height: 5vh;
     cursor: pointer;
   }
 
@@ -49,61 +48,72 @@
   .stack {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: space-evenly;
   }
   .stack-item {
-     width: fit-content;
+     display: flex;
+     justify-content: center !important;
+  }
+  @media screen and (max-width: 1550px){
+    .text-container{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .eco-image {
+      padding: 0;
+      height: 40vh;
+    }
+    .stack-item {
+     margin-top: 10px;
+     margin-bottom: 10px;
+   }
+   .ecommerce-stack{
+     margin-top: 10px;
+   } 
+  
   }
 
   @media screen and (max-width: 1400px) {
     .eco-image {
-      height: 45vh;
-      width: 35vw;
+      height: 35vh;
     }
-    div {
+    .text-container {
       padding-top: 0px;
     }
     .ima{
       padding-top: 0px;
     }
-      p {
-        margin-right: 10px;
-      }
+
   }
 
-  @media screen and (max-width: 1160px) {
-    p {
-        margin-right: 0px;
-      }
-  }
+
 
   @media screen and (max-width: 1028px) {
     .eco-image {
       padding: 0;
-      height: 35vh;
-      width: 35vw;
+      height: 30vh;
     }
 
-    div {
+    .text-container {
       padding-top: 0px;
     }
-    p {
-      margin-left: 10px;
+    .par {
+      margin-left: 0px;
       margin-right: 0px;
       font-size: 14px;
     }
     h2 {
-      margin-left: 10px;
+      margin-left: 0px;
       font-size: 22px;
     }
-    h3 {
-      margin-left: 10px;
+    .ecommerce-stack {
+      margin-left: 0px;
       margin-top: 0;
       font-size:20px ;
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 680px) {
     .eco-image {
       display: none !important;
     }

@@ -1,16 +1,16 @@
 
 .HomePage{
-    width: 65%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     margin: 10px auto 0;
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1110px) {
  
     .HomePage{
-        width: 75%;   
+        width: 80%;   
   }
 }
 

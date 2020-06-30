@@ -7,21 +7,20 @@ const Ecommerce = () => {
   return (
     <div className="Ecommerce ">
       <img className='eco-image' src={clothesPic} alt="Phoenix Clothing" />
-      <div>
+      <div className='text-container'>
         <h2>Ecommerce Web Application</h2>
-        <p>
+        <p className = 'par'>
           An ecommerce clothing store web application built as a hobby and in
           order to learn advanced features of React.js such as Redux, Hooks and
           GraphQL.
         </p>
-        <h3>Project Stack:</h3>
+        <h4 className ='ecommerce-stack'>Project Stack:</h4>
         <span className="stack">
-          <p className="stack-item">HTML5</p>
-          <p className="stack-item">CSS</p>
-          <p className="stack-item">React.js</p>
-          <p className="stack-item">Firebase</p>
+          <p className="stack-item par"><i>HTML5</i></p>
+          <p className="stack-item par"><i>CSS</i></p>
+          <p className="stack-item par"><i>React.js</i></p>
+          <p className="stack-item par"><i>Firebase</i></p>
         </span>
-        <h3>This project can be found at:</h3>
         <p className="stack-item"><a href='https://phoenix-live.herokuapp.com/'>https://phoenix-live.herokuapp.com/ </a></p>
         <span className='ima'>
         <a href="https://github.com/CalumBradbury24/Phoenix-Clothing">
