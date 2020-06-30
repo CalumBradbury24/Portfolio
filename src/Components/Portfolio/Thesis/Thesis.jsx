@@ -9,20 +9,20 @@ const Thesis = () => {
       <img className="thesis-image" src={thesis} alt="Thesis title page" />
       <div className="container">
         <h2>Photonic Reservoir Computing</h2>
-        <p>
+        <p className = 'par'>
           My Master's thesis presented in partial fullfilment for the degree of
           MEng Electrical & Electronic Engineering at the University of
           Nottingham. This project consisted of the sucessful design of a novel type of
           Artificial Neural Network (Reservoir Computer) for the optical
           processing of high bandwidth signals.
         </p>
-        <h3>Project Software:</h3>
+        <h4 className ='thesis-stack'>Project Software:</h4>
         <span className="stack3">
-          <p className="stack-item3">MATLAB</p>
-          <p className="stack-item3">Lumerical Photonic Simulation Software</p>
+          <p className="stack-item3 par">MATLAB</p>
+          <p className="stack-item3 par">Lumerical Photonic Simulation Software</p>
         </span>
         <span>
-          <ThesisButton className="pad" />
+          <ThesisButton />
         </span>
       </div>
     </div>

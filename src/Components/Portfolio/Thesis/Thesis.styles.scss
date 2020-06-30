@@ -1,38 +1,42 @@
 .Thesis {
-  border: solid 1px whitesmoke;
+  border: solid 1px grey;
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
-  
+  background-color: white;
   cursor: default !important;
+
   .thesis-image {
     padding: 0;
-    height: 60vh;
-    width: 30vw;
+    height: 45vh;
   }
-
-.pad{
-  padding-top: 0px !important;
-}
 
   .container {
-    padding-top: 55px;
-  
-  }
-  div{
-    background: rgb(215, 255, 215);
-  }
-  p {
-    margin-left: 20px;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background: #d7ffd7;
+    border-left: solid 1px grey;
   }
 
+  .thesis-stack {
+    display: flex;
+    justify-content: left;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  div {
+    background: rgb(215, 255, 215);
+  }
   h2 {
     display: flex;
     justify-content: left;
     margin-bottom: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
   }
   h3 {
     display: flex;
@@ -42,7 +46,6 @@
     margin-bottom: 0px;
     margin-left: 20px;
   }
- 
 
   span {
     display: flex;
@@ -53,111 +56,79 @@
   .stack3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    padding-bottom: 200px;
+    justify-content: space-evenly;
   }
   .stack-item3 {
-    width: fit-content;
-    margin-bottom: 5px;
-  
+    display: flex;
+    justify-content: center !important;
   }
-  @media screen and (max-width: 1800px){
-    .stack3 {
-            padding-bottom: 170px;
-    }
-  }
-  
 
- 
-  
-  @media screen and (max-width: 1600px){
-    .stack3 {
-            padding-bottom: 130px;
+  @media screen and (max-width: 1550px) {
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
     }
-  }
-  @media screen and (max-width: 1500px){
-    .stack3 {
-            padding-bottom: 120px;
+    .thesis-image {
+      padding: 0;
+      height: 40vh;
+    }
+    .stack-item {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .thesis-stack {
+      margin-top: 10px;
     }
   }
 
   @media screen and (max-width: 1400px) {
     .thesis-image {
-      height: 30vh;
-      width: 30vw;
+      height: 35vh;
     }
-    .container{
+    .container {
       padding-top: 0px;
     }
-    svg {
+    .ima {
       padding-top: 0px;
     }
-    p {
-      margin-right: 10px;
-    }
-    .stack3 {
-      padding-bottom: 90px;
-}
-  }
-  @media screen and (max-width: 1200px){
-    .stack3 {
-      padding-bottom: 80px;
-}
-  @media screen and (max-width: 1160px) {
-    p {
-      margin-right: 10px;
-    }
-    .stack3 {
-      padding-bottom: 70px;
-}
-.stack-item3 {
-    margin-top: 5px;
-}
   }
 
-  @media screen and (max-width: 1065px) {
-    .stack3 {
-      padding-bottom: 40px;
-}
-  }
-  @media screen and (max-width: 1005px) {
-    .stack3 {
-      padding-bottom: 20px;
-}
-  }
- 
-  }
   @media screen and (max-width: 1028px) {
-    img {
+    .thesis-image {
       padding: 0;
       height: 30vh;
-      width: 30vw;
     }
 
-    h2 {
-      margin-left: 10px;
-      margin-right: 10px;
-      font-size: 22px;
+    .container {
+      padding-top: 0px;
     }
-    p {
-      margin-left: 10px;
-      margin-right: 10px;
+    .par {
+      margin-left: 0px;
+      margin-right: 0px;
       font-size: 14px;
     }
-    
-    
-    h3 {
-      margin-left: 10px;
+    h2 {
+      margin-left: 0px;
+      font-size: 22px;
+    }
+    .thesis-stack {
+      margin-left: 0px;
       margin-top: 0;
-      
+      font-size: 20px;
     }
   }
-  @media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 680px) {
     .thesis-image {
       display: none !important;
     }
-}
- 
+  }
+
+  @media screen and (max-width: 412px) {
+    .stack3 {
+      justify-content: space-between;
+    }
+  }
 }
 
 .Thesis:hover {

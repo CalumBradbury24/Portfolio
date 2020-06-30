@@ -5,8 +5,8 @@ import Guitar from "../../../assets/Guitar.jpg";
 const GuitarProject = () => {
   return (
     <div className="Guitar ">
-      <img className="guitarImage" src={Guitar} alt="Guitar" />
-      <div className="container">
+      <img className="guitar-image" src={Guitar} alt="Guitar" />
+      <div className="guitar-container">
         <h2>Electric Guitar</h2>
         <p>
           I’m a huge rock music fan and have always loved playing the guitar.

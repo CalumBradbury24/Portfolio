@@ -4,13 +4,14 @@
   flex-wrap: nowrap;
   width: 100%;
   background-color: white;
-    cursor: default !important;
-    .eco-image {
+  cursor: default !important;
+
+  .eco-image {
     padding: 0;
     height: 45vh;
   }
 
-  .text-container{
+  .text-container {
     display: flex;
     flex-direction: column;
     padding-top: 35px;
@@ -25,7 +26,6 @@
     display: flex;
     justify-content: left;
     margin-bottom: 0px;
-
   }
   .ecommerce-stack {
     display: flex;
@@ -41,7 +41,6 @@
 
   span {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -51,11 +50,11 @@
     justify-content: space-evenly;
   }
   .stack-item {
-     display: flex;
-     justify-content: center !important;
+    display: flex;
+    justify-content: center !important;
   }
-  @media screen and (max-width: 1550px){
-    .text-container{
+  @media screen and (max-width: 1550px) {
+    .text-container {
       padding-left: 20px;
       padding-right: 20px;
     }
@@ -64,13 +63,12 @@
       height: 40vh;
     }
     .stack-item {
-     margin-top: 10px;
-     margin-bottom: 10px;
-   }
-   .ecommerce-stack{
-     margin-top: 10px;
-   } 
-  
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .ecommerce-stack {
+      margin-top: 10px;
+    }
   }
 
   @media screen and (max-width: 1400px) {
@@ -80,13 +78,10 @@
     .text-container {
       padding-top: 0px;
     }
-    .ima{
+    .ima {
       padding-top: 0px;
     }
-
   }
-
-
 
   @media screen and (max-width: 1028px) {
     .eco-image {
@@ -109,7 +104,7 @@
     .ecommerce-stack {
       margin-left: 0px;
       margin-top: 0;
-      font-size:20px ;
+      font-size: 20px;
     }
   }
 
@@ -117,8 +112,13 @@
     .eco-image {
       display: none !important;
     }
-}
+  }
 
+  @media screen and (max-width: 412px) {
+    .stack {
+      justify-content: space-between;
+    }
+  }
 }
 
 .Ecommerce:hover {
