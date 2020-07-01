@@ -1,6 +1,6 @@
 import React from "react";
 import "./SentryGun.styles.scss";
-import sentryGun from "../../../assets/sentryGun.png";
+import sentryGun from "../../../assets/sentryGun.jpg";
 
 const SentryGun = () => {
   return (

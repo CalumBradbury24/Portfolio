@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 class NavBar extends React.Component {
   state = {
-    isSelected: "",
+    isSelected: "SplashScreen",
     status: "top",
   };
   listener = null;
@@ -30,7 +30,6 @@ class NavBar extends React.Component {
 
   handleClick = (event) => () => {
     this.setState({ isSelected: event });
-    console.log(event);
   };
 
   render() {
@@ -72,7 +71,7 @@ class NavBar extends React.Component {
             to="About-me"
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={-70}
             duration={600}
             isDynamic={true}
             onClick={this.handleClick("About-me")}
