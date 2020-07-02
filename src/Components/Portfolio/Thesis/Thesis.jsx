@@ -18,8 +18,8 @@ const Thesis = () => {
         </p>
         <h4 className ='thesis-stack'>Project Software:</h4>
         <span className="stack3">
-          <p className="stack-item3 par">MATLAB</p>
-          <p className="stack-item3 par">Lumerical Photonic Simulation Software</p>
+          <p className="stack-item3 par"><i>MATLAB</i></p>
+          <p className="stack-item3 par"><i>Lumerical Photonic Simulation Software</i></p>
         </span>
         <span>
           <ThesisButton />

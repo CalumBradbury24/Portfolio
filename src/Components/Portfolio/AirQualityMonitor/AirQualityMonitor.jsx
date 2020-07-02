@@ -23,11 +23,12 @@ const AirQualityMonitor = () => {
           <p className="stack-item">Node.js</p>
           <p className="stack-item">MongoDB</p>
           <p className="stack-item">Express.js</p>
+          <p className="stack-item">PMS5003 Python Library</p>
         </span>
         <h3>Hardware:</h3>
         <span className="stack">
-          <p className="stack-item">Raspberry Pi 3 Model B+</p>
-          <p className="stack-item">Particulate Matter Sensor</p>
+          <p className="stack-item"><i>Raspberry Pi 3 Model B+</i></p>
+          <p className="stack-item"><i>PMS5003 Particulate Matter Sensor</i></p>
         </span>
         <h3>This project can be found at:</h3>
         <p className="stack-item">

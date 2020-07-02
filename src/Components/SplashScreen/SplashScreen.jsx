@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioPic from "../../assets/port-circle.png";
+import PortfolioPic from "../../assets/port-ci.png";
 import { ReactComponent as Logo } from "../../assets/github.svg";
 import "./SplashScreen.styles.scss";
 

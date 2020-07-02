@@ -16,9 +16,9 @@ const SentryGun = () => {
         </p>
         <h4 className ='sentry-stack'>Project Software & Hardware:</h4>
         <span className="stack">
-          <p className="stack-item par">C Programming Language</p>
-          <p className="stack-item par">Project Sentry Gun software</p>
-          <p className="stack-item par">Arduino Uno Micro-Controller</p>
+          <p className="stack-item par"><i>C Programming Language</i></p>
+          <p className="stack-item par"><i>Project Sentry Gun software</i></p>
+          <p className="stack-item par"><i>Arduino Uno Micro-Controller</i></p>
         </span>
       </div>
     </div>

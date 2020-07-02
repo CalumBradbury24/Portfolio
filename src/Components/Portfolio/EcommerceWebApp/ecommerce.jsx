@@ -1,6 +1,6 @@
 import React from "react";
 import "./ecommerce.styles.scss";
-import clothesPic from "../../../assets/phoenixClothing.PNG";
+import clothesPic from "../../../assets/phoenixclothing.jpg";
 import { ReactComponent as Logo } from "../../../assets/github.svg";
 
 const Ecommerce = () => {
