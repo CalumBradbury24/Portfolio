@@ -1,117 +1,125 @@
-.AirQual {
-  border: solid 1px whitesmoke;
-  display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
+.AirQuality {
+    border: solid 1px grey;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: white;
     cursor: default !important;
-  .air-image {
-    padding: 0;
-    height: 60vh;
-    width: 35vw;
-  }
-  div {
-    padding-top: 55px;
-    background: aliceblue;
-  }
-  p {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  h2 {
-    display: flex;
-    justify-content: left;
-    margin-bottom: 0px;
-    margin-left: 20px;
-  }
-  h3 {
-    display: flex;
-    justify-content: left;
-    padding-top: 0px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 20px;
-  }
-  .git-image{
-    padding-top: 0px;
-  }
-  svg {
-    height: 5vh;
-    cursor: pointer;
-  }
-
-  span {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .stack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-  }
-  .stack-item {
-     width: fit-content;
-  }
-
-  @media screen and (max-width: 1400px) {
+  
     .air-image {
+      padding-top: 5px;
       height: 45vh;
-      width: 35vw;
     }
-    div {
+  
+    .air-container {
+      display: flex;
+      flex-direction: column;
+      padding-top: 35px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      background: aliceblue;
+      border-left: solid 1px grey;
+    }
+  
+    h2 {
+      margin-bottom: 0px;
+    }
+    .airQuality-stack {
+      display: flex;
+      justify-content: left;
       padding-top: 0px;
+      margin-top: 5px;
+      margin-bottom: 0px;
     }
     svg {
+      height: 5vh;
+      cursor: pointer;
+    }
+    .ima{
+      padding-top: 5px;
+    }
+  
+    span {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .air-stack {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .stack-item {
+      display: flex;
+      justify-content: center !important;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    @media screen and (max-width: 1550px) {
+      .air-container {
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 0px;
-       
       }
-      p {
-        margin-right: 10px;
+      .air-image {
+        height: 40vh;
       }
-  }
-
-  @media screen and (max-width: 1160px) {
-    p {
+      .stack-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .airQuality-stack {
+        margin-top: 10px;
+      }
+    }
+  
+    @media screen and (max-width: 1400px) {
+      .air-image {
+        height: 35vh;
+      }
+      .ima {
+        padding-top: 0px;
+      }
+    }
+  
+    @media screen and (max-width: 1028px) {
+      .air-image {
+        height: 30vh;
+      }
+      .par {
+        margin-left: 0px;
         margin-right: 0px;
+        font-size: 14px;
       }
+      h2 {
+        margin-left: 0px;
+        font-size: 22px;
+      }
+      .airQuality-stack {
+        margin-left: 0px;
+        margin-top: 0;
+        font-size: 20px;
+      }
+    }
+  
+    @media screen and (max-width: 680px) {
+      .air-image {
+        display: none !important;
+      }
+    }
+  
+    @media screen and (max-width: 412px) {
+      .air-stack {
+        justify-content: space-between;
+      }
+    }
   }
-
-  @media screen and (max-width: 1028px) {
-    .air-image {
-      padding: 0;
-      height: 35vh;
-      width: 35vw;
-    }
-
-    div {
-      padding-top: 0px;
-    }
-    p {
-      margin-left: 10px;
-      margin-right: 0px;
-    }
-    h2 {
-      margin-left: 10px;
-    }
-    h3 {
-      margin-left: 10px;
-      margin-top: 0;
-    }
+  
+  .AirQuality:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    box-shadow: 1px 1px 2px 2px whitesmoke;
   }
-
-  @media screen and (max-width: 600px) {
-    .air-image {
-    display: none !important;
-  }
-}
-
-}
-
-.Ecommerce:hover {
-  cursor: pointer;
-  transform: scale(1.04);
-  transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-  box-shadow: 1px 1px 2px 2px whitesmoke;
-}
+  
