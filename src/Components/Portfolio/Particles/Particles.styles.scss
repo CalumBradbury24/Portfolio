@@ -1,0 +1,127 @@
+.ParticleProject {
+    border: solid 1px grey;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: white;
+    cursor: default !important;
+  
+    .particle-image {
+      height: 35vh;
+     
+    }
+    svg {
+      height: 5vh;
+      cursor: pointer;
+    }
+    .ima{
+      padding-top: 25px;
+      display: flex;
+      justify-content: center;
+    }
+    .part-container {
+      display: flex;
+      flex-direction: column;
+      padding-top: 35px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      background: #d7ffd7;
+      border-left: solid 1px grey;
+      width: -webkit-fill-available;
+    
+    }
+    .particle-stack {
+      padding-top: 0px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+    h2 {
+      margin-bottom: 0px;
+    }
+  
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .stack-item {
+      display: flex;
+      justify-content: center !important;
+    }
+  
+    @media screen and (max-width: 1550px) {
+      .part-container {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .particle-image {
+        padding: 0;
+        height: 30vh;
+      }
+      .stack-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .particle-stack {
+        margin-top: 10px;
+      }
+      .ima{
+        padding-top: 5px;
+      }
+    }
+  
+    @media screen and (max-width: 1400px) {
+      .part-container {
+        padding-top: 0px;
+      }
+      .ima {
+        padding-top: 0px;
+      }
+    }
+  
+    @media screen and (max-width: 1028px) {
+      .particle-image {
+        padding: 0;
+        height: 24vh;
+      }
+  
+      .part-container {
+        padding-top: 0px;
+      }
+      .par {
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 14px;
+      }
+      h2 {
+        margin-left: 0px;
+        font-size: 22px;
+      }
+      .particle-stack {
+        margin-left: 0px;
+        margin-top: 0;
+        font-size: 20px;
+      }
+    }
+  
+    @media screen and (max-width: 680px) {
+      .particle-image {
+        display: none !important;
+      }
+    }
+  
+    @media screen and (max-width: 412px) {
+      .stack {
+        justify-content: space-between;
+      }
+    }
+  }
+  
+  .ParticleProject:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    box-shadow: 1px 1px 2px 2px whitesmoke;
+  }
+  

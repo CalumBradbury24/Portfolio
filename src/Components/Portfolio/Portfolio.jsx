@@ -5,7 +5,7 @@ import AirQualityMonitor from "./AirQualityMonitor/AirQualityMonitor";
 import Thesis from "./Thesis/Thesis";
 import GuitarProject from "./Guitar/Guitar";
 import SentryGun from "./SentryGun/SentryGun";
-
+import Particles from "./Particles/Particles";
 
 class Portfolio extends React.Component {
   state = {
@@ -27,8 +27,8 @@ class Portfolio extends React.Component {
             className={
               "text-size option orange " +
               (option === "All" ? "stayOrange" : "default")
-            }       
-            onClick={this.handleClick("All")}    
+            }
+            onClick={this.handleClick("All")}
           >
             All
           </h4>
@@ -53,19 +53,22 @@ class Portfolio extends React.Component {
         </div>
         {this.state.option === "All" ? (
           <div>
-              <Ecommerce />
-              <br />
-              <br />
-              <AirQualityMonitor />
-              <br />
-              <br />
-              <Thesis />
-              <br />
-              <br />
-              <GuitarProject />
-              <br />
-              <br />
-              <SentryGun />
+            <Ecommerce />
+            <br />
+            <br />
+            <AirQualityMonitor />
+            <br />
+            <br />
+            <Particles />
+            <br />
+            <br />
+            <Thesis />
+            <br />
+            <br />
+            <GuitarProject />
+            <br />
+            <br />
+            <SentryGun />
           </div>
         ) : this.state.option === "WebApp" ? (
           <div>
@@ -76,6 +79,9 @@ class Portfolio extends React.Component {
           </div>
         ) : (
           <div>
+            <Particles />
+            <br />
+            <br />
             <Thesis />
             <br />
             <br />
