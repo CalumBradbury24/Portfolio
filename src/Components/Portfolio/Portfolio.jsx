@@ -5,7 +5,7 @@ import AirQualityMonitor from "./AirQualityMonitor/AirQualityMonitor";
 import Thesis from "./Thesis/Thesis";
 import GuitarProject from "./Guitar/Guitar";
 import SentryGun from "./SentryGun/SentryGun";
-import Particles from "./Particles/Particles";
+import ParticleProject from "./Particles/Particles";
 
 class Portfolio extends React.Component {
   state = {
@@ -59,7 +59,7 @@ class Portfolio extends React.Component {
             <AirQualityMonitor />
             <br />
             <br />
-            <Particles />
+            <ParticleProject />
             <br />
             <br />
             <Thesis />
@@ -79,7 +79,7 @@ class Portfolio extends React.Component {
           </div>
         ) : (
           <div>
-            <Particles />
+            <ParticleProject />
             <br />
             <br />
             <Thesis />

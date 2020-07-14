@@ -2,7 +2,7 @@ import React from "react";
 import "./Particles.styles.scss";
 import { ReactComponent as Logo } from "../../../assets/github.svg";
 
-const SentryGun = () => {
+const ParticleProject = () => {
   return (
     <div className="ParticleProject">
      <video className = 'particle-image' autoPlay loop muted playsInline>
@@ -20,7 +20,7 @@ const SentryGun = () => {
           <p className="stack-item par"><i>SDL C++ Library</i></p>
         </span>
         <span className='ima'>
-        <a href="https://github.com/CalumBradbury24/Phoenix-Clothing">
+        <a href="https://github.com/CalumBradbury24/Particle-explosion/tree/master/Particle-explosion/src">
           <Logo />
         </a>
         </span>
@@ -29,4 +29,4 @@ const SentryGun = () => {
   );
 };
 
-export default SentryGun;
+export default ParticleProject;
