@@ -7,8 +7,8 @@
     cursor: default !important;
   
     .air-image {
-      padding-top: 5px;
-      height: 45vh;
+     height: 32vh;
+     margin-top: 10px;
     }
   
     .air-container {
@@ -63,7 +63,7 @@
         padding-top: 0px;
       }
       .air-image {
-        height: 40vh;
+        height: 29vh;
       }
       .stack-item {
         margin-top: 10px;
@@ -76,7 +76,7 @@
   
     @media screen and (max-width: 1400px) {
       .air-image {
-        height: 35vh;
+        height: 28vh;
       }
       .ima {
         padding-top: 0px;
@@ -85,7 +85,7 @@
   
     @media screen and (max-width: 1028px) {
       .air-image {
-        height: 30vh;
+        height: 21.5vh;
       }
       .par {
         margin-left: 0px;
