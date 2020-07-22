@@ -5,7 +5,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {ReactComponent as Logo} from '../../assets/book.svg'; 
+import { ReactComponent as Logo } from "../../assets/book.svg";
+
 const EducationTimeline = () => {
   return (
     <VerticalTimeline>
@@ -15,7 +16,7 @@ const EducationTimeline = () => {
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="2016 - 2020"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-         icon={< Logo/>}
+        icon={<Logo />}
       >
         <h3 className="vertical-timeline-element-title">
           University of Nottingham
@@ -23,7 +24,13 @@ const EducationTimeline = () => {
         <h4 className="vertical-timeline-element-subtitle">Nottingham, UK</h4>
         <p>
           Masters of Electrical & Electronic Engineering (1st Class Degree with
-          Honours).
+          Honours). Awarded the{" "}
+          <strong>Electrical & Electronic Engineering Prize</strong> awarded to
+          the graduating student{" "}
+          <i>
+            “adjudged to have made the most commendable progress during the
+            whole of the degree course".
+          </i>
         </p>
         <p>2017-2018 Study Abroad Year at Concordia University, QC, Canada.</p>
       </VerticalTimelineElement>
@@ -31,7 +38,7 @@ const EducationTimeline = () => {
         className="vertical-timeline-element--work"
         date="2011 - 2013"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={< Logo/>}
+        icon={<Logo />}
       >
         <h3 className="vertical-timeline-element-title">Leicester College</h3>
         <h4 className="vertical-timeline-element-subtitle">Leicester, UK</h4>
@@ -44,7 +51,7 @@ const EducationTimeline = () => {
         className="vertical-timeline-element--work"
         date="2009 - 2011"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        icon={< Logo/>}
+        icon={<Logo />}
       >
         <h3 className="vertical-timeline-element-title">
           Bosworth Community College

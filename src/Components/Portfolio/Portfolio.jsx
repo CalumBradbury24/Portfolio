@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";//Use hooks
 import "./Portfolio.styles.scss";
 import Ecommerce from "./EcommerceWebApp/ecommerce";
 import AirQualityMonitor from "./AirQualityMonitor/AirQualityMonitor";
@@ -7,7 +7,93 @@ import GuitarProject from "./Guitar/Guitar";
 import SentryGun from "./SentryGun/SentryGun";
 import ParticleProject from "./Particles/Particles";
 
+const Portfolio = () => {
+  const [option, setOption] = useState('All');//Initial state
+  return (
+    <div className="Portfolio">
+      <h2 className="title">My Projects</h2>
+      <div className="options">
+        <h4
+          className={
+            "text-size option orange " +
+            (option === "All" ? "stayOrange" : "default")
+          }
+          onClick={() => setOption("All")}
+        >
+          All
+        </h4>
+        <h4
+          className={
+            "text-size option blue " +
+            (option === "WebApp" ? "stayBlue" : "default")
+          }
+          onClick={() => setOption("WebApp")}
+        >
+          Web Applications
+        </h4>
+        <h4
+          className={
+            "text-size option green " +
+            (option === "Other" ? "stayGreen" : "default")
+          }
+          onClick={() => setOption("Other")}
+        >
+          Other
+        </h4>
+      </div>
+      {option === "All" ? (
+        <div>
+          <Ecommerce />
+          <br />
+          <br />
+          <AirQualityMonitor />
+          <br />
+          <br />
+          <ParticleProject />
+          <br />
+          <br />
+          <Thesis />
+          <br />
+          <br />
+          <GuitarProject />
+          <br />
+          <br />
+          <SentryGun />
+        </div>
+      ) : option === "WebApp" ? (
+        <div>
+          <Ecommerce />
+          <br />
+          <br />
+          <AirQualityMonitor />
+        </div>
+      ) : (
+        <div>
+          <ParticleProject />
+          <br />
+          <br />
+          <Thesis />
+          <br />
+          <br />
+          <GuitarProject />
+          <br />
+          <br />
+          <SentryGun />
+        </div>
+      )}
+    </div>
+  );
+
+
+}
+
+
+
+
+
+/*
 class Portfolio extends React.Component {
+  
   state = {
     option: "All",
   };
@@ -95,5 +181,5 @@ class Portfolio extends React.Component {
     );
   }
 }
-
+*/
 export default Portfolio;
