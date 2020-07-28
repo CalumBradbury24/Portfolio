@@ -1,6 +1,6 @@
 import React from "react";
 import "./Thesis.styles.scss";
-import thesis from "../../../assets/thesis.PNG";
+import thesis from "../../../assets/thesis.jpg";
 import ThesisButton from "../../CustomButton/ThesisButton";
 
 const Thesis = () => {

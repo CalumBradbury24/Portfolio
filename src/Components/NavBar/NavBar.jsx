@@ -2,6 +2,7 @@ import React from "react";
 import "./NavBar.styles.scss";
 import { Link } from "react-scroll";
 
+
 class NavBar extends React.Component {
   state = {
     isSelected: "SplashScreen",

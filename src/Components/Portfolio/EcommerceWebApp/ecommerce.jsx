@@ -11,8 +11,7 @@ const Ecommerce = () => {
         <h2>Ecommerce Web Application</h2>
         <p className = 'par'>
           An ecommerce clothing store web application built as a hobby and in
-          order to learn advanced features of React.js such as Redux, Hooks and
-          GraphQL.
+          order to learn advanced features of React.js such as Redux and Hooks.
         </p>
         <h4 className ='ecommerce-stack'>Project Stack:</h4>
         <span className="stack">
