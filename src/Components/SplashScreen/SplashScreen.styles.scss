@@ -145,13 +145,22 @@
     font-size: 12px;
   }
 }
+@media screen and (max-width: 375px) {
+  .splash-container {
+    height: 22rem;
+  }
+  .portfolio-image {
+    height: 120px;
+    padding-top: 15px;
+  }
+}
 
 @media screen and (max-width: 360px) {
   .splash-container {
     height: 22rem;
   }
   .portfolio-image {
-    height: 125px;
+    height: 120px;
     padding-top: 15px;
   }
 }
