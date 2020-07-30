@@ -6,29 +6,31 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
   display: grid;
   align-items: center;
   justify-content: center;
-  height: 80vh;
-  margin-top: -70px;
+  height: fit-content;
+  padding-bottom: 25px;    
+ 
 }
 
 .splash-container {
   display: block;
-  width: 45rem;
-  height: 35rem;
+  width: 42.5rem;
+  height: 32.5rem;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   position: relative;
   z-index: 1;
   background: inherit;
   overflow: hidden;
+  margin-top:15px ;
+
 }
 
 .portfolio-image {
-  height: 25vh;
-  padding-top: 40px;
+  height: 215px;
+  padding-top: 35px;
 }
 
 .splash-container:before {
@@ -69,11 +71,14 @@
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
+ 
 }
 
 .dimensions {
-  height: 5vh;
+  height: 50px;
   cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 950px) {
@@ -98,7 +103,7 @@
 @media screen and (max-width: 520px) {
   .splash-container {
     width: 25rem;
-    height: 28rem;
+    height: 29rem;
   }
   .portfolio-image {
     height: 20vh;
@@ -113,23 +118,22 @@
     font-size: 14px;
   }
 }
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 414px) {
   .splash-container {
-    width: 23rem;
+    width: 22.5rem;
+    height: 27rem;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .splash {
-    margin-top: -30px;
-  }
+  
 
   .splash-container {
     width: 19rem;
     height: 24rem;
   }
   .portfolio-image {
-    height: 20vh;
+    height: 200px;
   }
   .H1 {
     font-size: 24px;
@@ -146,6 +150,10 @@
   .splash-container {
     height: 22rem;
   }
+  .portfolio-image {
+    height: 125px;
+    padding-top: 15px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -153,6 +161,9 @@
     width: 18rem;
     height: 20rem;
   }
+  .splash {
+    margin-top: -10px;
+}
 
   .H1 {
     font-size: 20px;

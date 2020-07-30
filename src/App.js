@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route} from "react-router-dom";
 import HomePage from './Pages/HomePage';
 import NavBar from "./Components/NavBar/NavBar";
+import SplashScreen from './Components/SplashScreen/SplashScreen';
+import Footer from "./Components/Footer/Footer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <NavBar />
-      <Router>
-        <Route exact path = "/" component={HomePage}/>
-      </Router>
+      <SplashScreen />
+      <HomePage />
+      <Footer />
     </div>
   );
 }

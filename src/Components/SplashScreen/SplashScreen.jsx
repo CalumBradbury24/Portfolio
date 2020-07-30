@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioPic from "../../assets/port-ci.png";
-import { ReactComponent as Logo } from "../../assets/github.svg";
+import { ReactComponent as GitHub } from "../../assets/github.svg";
+import { ReactComponent as LinkedIn } from "../../assets/linkedin.svg";
 import "./SplashScreen.styles.scss";
 
 const SplashScreen = () => {
@@ -24,7 +25,10 @@ const SplashScreen = () => {
         </div>
         <div className="position-git animated zoomIn delay-1s">
           <a href="https://github.com/CalumBradbury24">
-            <Logo className="dimensions" />
+            <GitHub className="dimensions" />
+          </a>
+          <a href="https://www.linkedin.com/in/calum-bradbury-1507761b3/">
+            <LinkedIn className="dimensions" />
           </a>
         </div>
       </div>

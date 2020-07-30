@@ -13,7 +13,7 @@ class NavBar extends React.Component {
   componentDidMount() {
     this.listener = document.addEventListener("scroll", () => {
       let scrolled = document.scrollingElement.scrollTop;
-      if (scrolled >= 700) {
+      if (scrolled >= 550) {
         if (this.state.status !== "moved") {
           this.setState({ status: "moved" });
         }
