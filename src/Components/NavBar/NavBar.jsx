@@ -72,7 +72,7 @@ class NavBar extends React.Component {
             to="About-me"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-75}
             duration={600}
             isDynamic={true}
             onClick={this.handleClick("About-me")}
