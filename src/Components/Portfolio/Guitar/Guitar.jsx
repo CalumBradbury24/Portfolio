@@ -9,8 +9,8 @@ const GuitarProject = () => {
       <div className="guitar-container">
         <h2>Electric Guitar</h2>
         <p>
-          I’m a huge rock music fan and have always loved playing the guitar.
-          Thus building my own electric guitar was a huge passion project of
+          Being a huge rock music fan (Van Halen in particular) and having always loved playing the guitar,
+          building my own electric guitar was a huge passion project of
           mine!
         </p>
       </div>

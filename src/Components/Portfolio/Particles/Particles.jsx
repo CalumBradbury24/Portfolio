@@ -11,15 +11,15 @@ const ParticleProject = () => {
      </video>
       <div className="part-container">
         <h2>Particle explosion</h2>
-        <p className = 'par'>
+        <p>
          A particle explosion effect built as a mini C++ project.
         </p>
         <h4 className ='particle-stack'>Project Stack:</h4>
         <span className="stack">
-          <p className="stack-item par"><i>C++</i></p>
-          <p className="stack-item par"><i>SDL C++ Library</i></p>
+          <p className="stack-item"><i>C++</i></p>
+          <p className="stack-item"><i>SDL C++ Library</i></p>
         </span>
-        <span className='ima'>
+        <span className='image-git'>
         <a href="https://github.com/CalumBradbury24/Particle-explosion/tree/master/Particle-explosion/src">
           <Logo />
         </a>

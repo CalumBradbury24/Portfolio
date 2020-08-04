@@ -1,4 +1,55 @@
 .About-me{
-   padding-bottom: 20px;
-    
+   display: grid;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+ .react-rotating-text-cursor {
+   animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+ }
+ 
+ @keyframes blinking-cursor {
+   0% {
+     opacity: 0;
+   }
+   50% {
+     opacity: 1;
+   }
+   100% {
+     opacity: 0;
+   }
+ }
+ .project-link{
+   color: rgba(255, 166, 0, 0.781);
+ }
+ @media screen and (max-width: 750px) {
+  .h1-size{
+    font-size: 24px;
+  } 
+}
+
+@media screen and (max-width: 414px) {
+  .h1-size{
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .h4-size{
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+}
+
+@media screen and (max-width: 360px) {
+  .h1-size{
+    font-size: 14px;
+  }
+  .h4-size{
+    font-size: 12px;
+  }
+  
 }

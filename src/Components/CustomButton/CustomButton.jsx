@@ -3,8 +3,8 @@ import "./CustomButton.styles.scss";
 
 const CustomButton = () => {
   return (
-    <div className="custom-button">
-      <span>
+    <div className="custom-button thesis-button'">
+      <span className>
         <a className = 'button' href="Calum Bradbury CV.pdf" download>
           DOWNLOAD RESUME
         </a>

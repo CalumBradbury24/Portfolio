@@ -2,6 +2,8 @@ import React from "react";
 import PortfolioPic from "../../assets/port-ci.png";
 import { ReactComponent as GitHub } from "../../assets/github.svg";
 import { ReactComponent as LinkedIn } from "../../assets/linkedin.svg";
+
+
 import "./SplashScreen.styles.scss";
 
 const SplashScreen = () => {

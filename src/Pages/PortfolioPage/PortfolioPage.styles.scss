@@ -1,0 +1,18 @@
+.Portfolio{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px auto 0;
+}   
+
+.container{
+    border: solid 1px grey;
+    width: min-content;
+    height: auto;
+    background: aliceblue;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}

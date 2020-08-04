@@ -1,27 +1,23 @@
 .nav {
   position: fixed;
   width: 100%;
-  background: url(../../assets/backgrounds.jpg) no-repeat;
- // background-attachment: fixed; 
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-color: rgba(0, 0, 0, 0.986);
   z-index: 500;
-  border-top: none !important;
-  border-left: none !important;
-  border-right: none !important;
+
   box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
   .list {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: space-evenly;
+    padding-left: 0px;
+    
   }
   @media screen and (max-width: 1024px) {
  
     .list {
       justify-content: space-around;  
+     
   }
   }
  
@@ -34,7 +30,10 @@
   .navbar-item:hover {
     color: rgb(255, 196, 0);
   }
-
+  a{
+    text-decoration: none;
+    color: white;
+  }
   
 
   .stayOrange {
@@ -50,6 +49,7 @@
 
     ul{
       padding-inline-start: 0px;
+     
     }
   }
   @media screen and (max-width: 320px){
@@ -60,7 +60,6 @@
 }
 
 .sticky {
-  position: fixed;
   top: 0;
   width: 100%;
 }

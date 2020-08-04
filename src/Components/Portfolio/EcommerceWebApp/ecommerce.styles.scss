@@ -1,32 +1,22 @@
-.Ecommerce {
-  border: solid 1px grey;
-  display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
-  background-color: white;
-  cursor: default !important;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+
   .eco-image {
-    padding: 0;
-    height: 45vh;
+    height: 450px;
+    width: 550px;
   }
 
   .text-container {
     display: flex;
     flex-direction: column;
-    padding-top: 35px;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
     background: aliceblue;
-    border-left: solid 1px grey;
+    border-top: solid 1px grey;
+    text-align: left;
+    height: auto;
   }
 
-  h2 {
-    display: flex;
-    justify-content: left;
-    margin-bottom: 0px;
-  }
   .ecommerce-stack {
     display: flex;
     justify-content: left;
@@ -42,11 +32,6 @@
     padding-top: 25px;
   }
 
-  span {
-    display: flex;
-    justify-content: center;
-  }
-
   .stack {
     display: flex;
     flex-wrap: wrap;
@@ -56,77 +41,18 @@
     display: flex;
     justify-content: center !important;
   }
-  @media screen and (max-width: 1550px) {
-    .text-container {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+ 
+  @media screen and (max-width: 600px) {
     .eco-image {
-      padding: 0;
-      height: 40vh;
-    }
-    .stack-item {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    .ecommerce-stack {
-      margin-top: 10px;
+      height: 350px;
+      width: 450px;
     }
   }
-
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 411px) {
     .eco-image {
-      height: 35vh;
-    }
-    .text-container {
-      padding-top: 0px;
-    }
-    .ima {
-      padding-top: 0px;
+      height: 250px;
+      width: 350px;
     }
   }
 
-  @media screen and (max-width: 1028px) {
-    .eco-image {
-      padding: 0;
-      height: 30vh;
-    }
 
-    .text-container {
-      padding-top: 0px;
-    }
-    .par {
-      margin-left: 0px;
-      margin-right: 0px;
-      font-size: 14px;
-    }
-    h2 {
-      margin-left: 0px;
-      font-size: 22px;
-    }
-    .ecommerce-stack {
-      margin-left: 0px;
-      margin-top: 0;
-      font-size: 20px;
-    }
-  }
-
-  @media screen and (max-width: 680px) {
-    .eco-image {
-      display: none !important;
-    }
-  }
-
-  @media screen and (max-width: 412px) {
-    .stack {
-      justify-content: space-between;
-    }
-  }
-}
-
-.Ecommerce:hover {
-  cursor: pointer;
-  transform: scale(1.04);
-  transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-  box-shadow: 1px 1px 2px 2px whitesmoke;
-}

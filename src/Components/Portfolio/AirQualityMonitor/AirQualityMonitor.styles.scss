@@ -1,30 +1,17 @@
-.AirQuality {
-    border: solid 1px grey;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    background-color: white;
-    cursor: default !important;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
-    .air-image {
-     height: 32vh;
-     margin-top: 10px;
-    }
-  
+  .air-image {
+      height: 450px;
+      width: 550px;
+    }  
     .air-container {
       display: flex;
       flex-direction: column;
-      padding-top: 35px;
+      padding-top: 10px;
       padding-left: 30px;
       padding-right: 30px;
-      padding-bottom: 10px;
-      background: aliceblue;
-      border-left: solid 1px grey;
+      border-top: solid 1px grey;
+      text-align: left;
     }
-  
-    h2 {
-      margin-bottom: 0px;
-    }
+    
     .airQuality-stack {
       display: flex;
       justify-content: left;
@@ -37,14 +24,12 @@
       cursor: pointer;
     }
     .ima{
-      padding-top: 5px;
-    }
-  
-    span {
+      padding-top: 5px !important;
+      padding-bottom: 2px;
       display: flex;
       justify-content: center;
-    }
-  
+  }
+    
     .air-stack {
       display: flex;
       flex-wrap: wrap;
@@ -52,74 +37,24 @@
     }
     .stack-item {
       display: flex;
-      justify-content: center !important;
+      justify-content: center;
       margin-bottom: 10px;
       margin-top: 10px;
     }
-    @media screen and (max-width: 1550px) {
-      .air-container {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 0px;
-      }
+    
+    @media screen and (max-width: 600px) {
       .air-image {
-        height: 29vh;
-      }
-      .stack-item {
-        margin-top: 10px;
-        margin-bottom: 10px;
-      }
-      .airQuality-stack {
-        margin-top: 10px;
+        height: 350px;
+        width: 450px;
       }
     }
-  
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 411px) {
       .air-image {
-        height: 28vh;
+        height: 250px;
+        width: 350px;
       }
-      .ima {
-        padding-top: 0px;
-      }
-    }
-  
-    @media screen and (max-width: 1028px) {
-      .air-image {
-        height: 21.5vh;
-      }
-      .par {
-        margin-left: 0px;
-        margin-right: 0px;
-        font-size: 14px;
-      }
-      h2 {
-        margin-left: 0px;
-        font-size: 22px;
-      }
-      .airQuality-stack {
-        margin-left: 0px;
-        margin-top: 0;
+      h2{
         font-size: 20px;
       }
+      
     }
-  
-    @media screen and (max-width: 680px) {
-      .air-image {
-        display: none !important;
-      }
-    }
-  
-    @media screen and (max-width: 412px) {
-      .air-stack {
-        justify-content: space-between;
-      }
-    }
-  }
-  
-  .AirQuality:hover {
-    cursor: pointer;
-    transform: scale(1.04);
-    transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    box-shadow: 1px 1px 2px 2px whitesmoke;
-  }
-  

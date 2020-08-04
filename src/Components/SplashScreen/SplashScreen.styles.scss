@@ -1,30 +1,19 @@
 .splash {
-  background: url(../../assets/backgrounds.jpg) no-repeat;
-  /* Keep the inherited background full size. */
- // background-attachment: fixed; //Breaks on ios
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  display: grid;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  height: fit-content;
   padding-bottom: 25px;    
- 
+  padding-top: 100px;  
 }
 
 .splash-container {
-  display: block;
   width: 42.5rem;
   height: 32.5rem;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 10px;
   position: relative;
   z-index: 1;
-  background: inherit;
+  //background: inherit;
   overflow: hidden;
-  margin-top:15px ;
 
 }
 
@@ -35,9 +24,8 @@
 
 .splash-container:before {
   content: "";
-
   position: absolute;
-  background: inherit;
+ // background: inherit;
   z-index: -1;
   top: 0;
   left: 0;
@@ -87,14 +75,12 @@
   }
   .splash-container {
     width: 35rem;
-    height: 35rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   .splash-container {
     width: 30rem;
-    height: 35rem;
   }
   .portfolio-image {
     height: 23vh;
@@ -157,21 +143,16 @@
 
 @media screen and (max-width: 360px) {
   .splash-container {
-    height: 22rem;
-  }
-  .portfolio-image {
-    height: 120px;
-    padding-top: 15px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .splash-container {
     width: 18rem;
     height: 20rem;
   }
   .splash {
-    margin-top: -10px;
+    margin-top: -30px;
+    padding-bottom: 15px;
+}
+.portfolio-image {
+  height: 120px;
+  padding-top: 15px;
 }
 
   .H1 {

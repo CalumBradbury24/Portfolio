@@ -1,120 +1,43 @@
 import React from "react";
 import "./NavBar.styles.scss";
-import { Link } from "react-scroll";
+import { Link, useLocation } from "react-router-dom";
 
+const NavBar = () => {
+  let location = useLocation(); //React Router hook to get current path
 
-class NavBar extends React.Component {
-  state = {
-    isSelected: "SplashScreen",
-    status: "top",
-  };
-  listener = null;
-
-  componentDidMount() {
-    this.listener = document.addEventListener("scroll", () => {
-      let scrolled = document.scrollingElement.scrollTop;
-      if (scrolled >= 550) {
-        if (this.state.status !== "moved") {
-          this.setState({ status: "moved" });
-        }
-      } else {
-        if (this.state.status !== "top") {
-          this.setState({ status: "top" });
-        }
-      }
-    });
-  }
-
-  componentDidUpdate() {
-    document.removeEventListener("scroll", this.listener);
-  }
-
-  handleClick = (event) => () => {
-    this.setState({ isSelected: event });
-  };
-
-  render() {
-    const { isSelected } = this.state;
-    return (
-      <div
-        className="nav sticky"
-        style={{
-          background: this.state.status === "top" ? "" : "white",
-          border:
-            this.state.status === "top" ? "" : "solid 1px black",
-            color: this.state.status === "top" ? "white" : "black",
-            fontWeight:"bold"       
-           }}
-      >
-        <ul className="list">
-          <Link
-            className={
-              "navbar-item " +
-              (isSelected === "SplashScreen" ? "stayOrange" : "default")
-            }
-            activeClass="active"
-            to="splash"
-            spy={true}
-            smooth={true}
-            offset={-83}
-            duration={600}
-            isDynamic={true}
-            onClick={this.handleClick("SplashScreen")}
-          >
-            CONTACT
-          </Link>
-          <Link
-            className={
-              "navbar-item " +
-              (isSelected === "About-me" ? "stayOrange" : "default")
-            }
-            activeClass="active"
-            to="About-me"
-            spy={true}
-            smooth={true}
-            offset={-75}
-            duration={600}
-            isDynamic={true}
-            onClick={this.handleClick("About-me")}
-          >
-            ABOUT ME
-          </Link>
-          <Link
-            className={
-              "navbar-item " +
-              (isSelected === "Resume" ? "stayOrange" : "default")
-            }
-            activeClass="active"
-            to="Resume"
-            spy={true}
-            smooth={true}
-            offset={-73}
-            duration={600}
-            isDynamic={true}
-            onClick={this.handleClick("Resume")}
-          >
-            RESUME
-          </Link>
-          <Link
-            className={
-              "navbar-item " +
-              (isSelected === "Portfolio" ? "stayOrange" : "default")
-            }
-            activeClass="active"
-            to="Portfolio"
-            spy={true}
-            smooth={true}
-            offset={-73}
-            duration={600}
-            isDynamic={true}
-            onClick={this.handleClick("Portfolio")}
-          >
-            PORTFOLIO
-          </Link>
-        </ul>
-      </div>
-    );
-  }
-}
+  return (
+    <div className="nav sticky">
+      <ul className="list">
+        <Link
+          className={
+            "navbar-item " +
+            (location.pathname === "/" ? "stayOrange" : "default")
+          }
+          to="/"
+        >
+          Home
+        </Link>
+        <Link
+          className={
+            "navbar-item " +
+            (location.pathname === "/resume" ? "stayOrange" : "default")
+          }
+          to="/resume"
+        >
+          Resume
+        </Link>
+        <Link
+          className={
+            "navbar-item " +
+            (location.pathname === "/projects" ? "stayOrange" : "default")
+          }
+          to="projects"
+        >
+          Portfolio
+        </Link>
+      </ul>
+    </div>
+  );
+};
 
 export default NavBar;
