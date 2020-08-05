@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div className="About-me">
       <h1 className = 'h1-size'>Hi I'm Calum, Welcome to my portfolio website!</h1>
       <h1 className = 'h1-size'>
-        <span>I love...</span>
+        <span className = 'h1-size'>I love...</span>
         <ReactRotatingText
           items={[
             "Engineering",
