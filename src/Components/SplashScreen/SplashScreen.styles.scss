@@ -131,14 +131,13 @@
     font-size: 12px;
   }
 }
-@media screen and (max-width: 375px) {
-  .splash-container {
-    height: 23rem;
-  }
+@media screen and (max-width: 411px) {
+ 
   .portfolio-image {
     height: 120px;
     padding-top: 10px;
   }
+ 
 }
 
 @media screen and (max-width: 360px) {
@@ -179,7 +178,6 @@
     font-size: 14px;
   }
   .splash-container {
-    width: 40rem;
   height: 30rem;
   }
 }
@@ -197,7 +195,11 @@
     font-size: 13px;
   }
   .splash-container {
-    width: 40rem;
   height: 28rem;
+  }
+}
+@media screen and (max-height: 812px){
+  .splash-container {
+    width: 20rem;
   }
 }
