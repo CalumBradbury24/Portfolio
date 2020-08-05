@@ -165,3 +165,39 @@
     font-size: 10px;
   }
 }
+@media screen and (max-height: 930px){
+  .portfolio-image {
+    height: 180px;
+  }
+  .H1 {
+    font-size: 24px;
+  }
+  .H4 {
+    font-size: 16px;
+  }
+  .P {
+    font-size: 14px;
+  }
+  .splash-container {
+    width: 40rem;
+  height: 30rem;
+  }
+}
+@media screen and (max-height: 870px){
+  .portfolio-image {
+    height: 170px;
+  }
+  .H1 {
+    font-size: 22px;
+  }
+  .H4 {
+    font-size: 15px;
+  }
+  .P {
+    font-size: 13px;
+  }
+  .splash-container {
+    width: 40rem;
+  height: 28rem;
+  }
+}
