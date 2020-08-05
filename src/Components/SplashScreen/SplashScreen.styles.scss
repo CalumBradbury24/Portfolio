@@ -107,8 +107,18 @@
 @media screen and (max-width: 414px) {
   .splash-container {
     width: 22.5rem;
-    height: 27rem;
+    height: 27rem; 
+    color: whitesmoke;
   }
+
+}
+@media screen and (max-width: 411px) {
+ 
+  .portfolio-image {
+    height: 120px;
+    padding-top: 10px;
+  }
+ 
 }
 
 @media screen and (max-width: 400px) {
@@ -131,14 +141,7 @@
     font-size: 12px;
   }
 }
-@media screen and (max-width: 411px) {
- 
-  .portfolio-image {
-    height: 120px;
-    padding-top: 10px;
-  }
- 
-}
+
 
 @media screen and (max-width: 360px) {
   .splash-container {
@@ -200,6 +203,6 @@
 }
 @media screen and (max-height: 812px){
   .splash-container {
-    width: 20rem;
+    width: 20.75rem;
   }
 }

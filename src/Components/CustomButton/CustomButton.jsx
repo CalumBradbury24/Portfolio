@@ -4,7 +4,7 @@ import "./CustomButton.styles.scss";
 const CustomButton = () => {
   return (
     <div className="custom-button thesis-button'">
-      <span className>
+      <span>
         <a className = 'button' href="Calum Bradbury CV.pdf" download>
           DOWNLOAD RESUME
         </a>
