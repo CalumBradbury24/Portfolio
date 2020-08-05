@@ -16,10 +16,12 @@ const AboutMe = () => {
             "Web Development",
             "React.js",
             "C++",
+            "JavaScript",
             "HTML5",
             "CSS3",
             "Cats",
             "Ballroom Dancing",
+            "Taking on New Challenges",
           ]}
         />
       </h1>
