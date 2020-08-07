@@ -13,8 +13,7 @@
     "react-rotating-text": "^1.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-vertical-timeline-component": "^3.0.2",
-    "react-wordcloud": "^1.2.3"
+    "react-vertical-timeline-component": "^3.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

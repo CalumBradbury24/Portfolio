@@ -1,71 +1,83 @@
-.nav {
+nav.responsive-toolbar {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.986);;
   position: fixed;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.986);
-  z-index: 500;
+  display: flex;
+ justify-content: center;
+ top: 0;
+z-index: 500;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
 
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
-  .list {
+  ul {
+   background-color: rgba(0, 0, 0, 0.986);;
     display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    justify-content: space-evenly;
-    padding-left: 0px;
-    
-  }
-  @media screen and (max-width: 1024px) {
- 
-    .list {
-      justify-content: space-around;  
-     
-  }
-  }
- 
-  .navbar-item {
-    padding: 10px;
-    cursor: pointer;
-  }
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    align-items: center;
 
-
-  .navbar-item:hover {
-    color: rgb(255, 196, 0);
-  }
-  a{
-    text-decoration: none;
-    color: white;
-  }
-  
-
-  .stayOrange {
-    color: orange;
-  }
-
-  @media screen and (max-width: 450px) {
-    font-size: 13.8px;
-
-    .list {
-      justify-content: center;
+    figure {
+      visibility: hidden;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 5px;
+      margin-inline-end: 0;
+      cursor: pointer;
     }
-
-    ul{
-      padding-inline-start: 0px;
-     
+   
+    a {
+      color: white;
+      text-decoration: none;
+       list-style-type: none;
+      padding: 10px 20px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .stayOrange {
+      color: orange;
     }
   }
-  @media screen and (max-width: 320px){
-    .navbar-item {
-      padding: 5px;
-    }
+  .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
-.sticky {
-  top: 0;
-  width: 100%;
-}
+@media screen and (max-width: 759px) {
+  nav.responsive-toolbar {
+    ul {
+      height: 60px;
+      width: 100%;
+      position: fixed;
+      top: -240px; //slide from -240 -> 0
 
-@media screen and (max-width: 950px) {
-  .nav{
-    background-attachment: unset !important; //Remove as breaks on ios devices
+      flex-direction: column;
+
+      transition: 500ms ease all;
+
+      &.active {
+        //when active bring in navbar from the left
+        top: 60px;
+        height: 180px;
+      }
+      figure {
+        position: fixed;
+        visibility: visible;
+        left: 9px;
+        top: 10px;
+      }
+      
+      a {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 16px;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
   }
 }
