@@ -10,10 +10,10 @@ const SplashScreen = () => {
   return (
     <div className="splash">
       <div className="splash-container ">
-        <div className="position-image animated zoomIn delay-1s">
+        <div className="position-image">
           <img className="portfolio-image" src={PortfolioPic} alt="Author" />
         </div>
-        <div className="info animated zoomIn delay-1s">
+        <div className="info">
           <h1 className="H1">Calum Bradbury</h1>
           <h4 className="H4">
             MEng Electrical & Electronic Engineering Graduate
@@ -25,7 +25,7 @@ const SplashScreen = () => {
             <strong>EMAIL: </strong>cs.bradbury@outlook.com
           </p>
         </div>
-        <div className="position-git animated zoomIn delay-1s">
+        <div className="position-git">
           <a href="https://github.com/CalumBradbury24">
             <GitHub className="dimensions" />
           </a>
