@@ -15,6 +15,7 @@ nav.responsive-toolbar {
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0;
+   
 
     figure {
       visibility: hidden;
@@ -51,7 +52,7 @@ nav.responsive-toolbar {
       width: 100%;
       position: fixed;
       top: -240px; //slide from -240 -> 0
-
+      align-items: center;
       flex-direction: column;
 
       transition: 400ms ease all;

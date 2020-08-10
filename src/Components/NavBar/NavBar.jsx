@@ -6,7 +6,6 @@ const NavBar = () => {
   let location = useLocation(); //React Router hook to get current path
   const [navOpen, setNavOpen] = useState(false);
 
-
   return (
     <nav className="responsive-toolbar" onMouseLeave = {navOpen ? ()=>  setNavOpen(false) : null}>
       <ul className={navOpen ? "active" : ""}>
