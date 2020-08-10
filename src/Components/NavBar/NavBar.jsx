@@ -5,8 +5,10 @@ import logo from "../../assets/hamburger.svg";
 const NavBar = () => {
   let location = useLocation(); //React Router hook to get current path
   const [navOpen, setNavOpen] = useState(false);
+
+
   return (
-    <nav className="responsive-toolbar">
+    <nav className="responsive-toolbar" onMouseLeave = {navOpen ? ()=>  setNavOpen(false) : null}>
       <ul className={navOpen ? "active" : ""}>
       <figure onClick={() => setNavOpen(!navOpen)}>
           <img src={logo} height="40px" width="40px" alt="logo"></img>

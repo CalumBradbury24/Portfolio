@@ -15,7 +15,6 @@ nav.responsive-toolbar {
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0;
-    align-items: center;
 
     figure {
       visibility: hidden;
@@ -55,7 +54,7 @@ nav.responsive-toolbar {
 
       flex-direction: column;
 
-      transition: 500ms ease all;
+      transition: 400ms ease all;
 
       &.active {
         //when active bring in navbar from the left

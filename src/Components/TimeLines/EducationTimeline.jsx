@@ -57,7 +57,7 @@ const EducationTimeline = () => {
           Bosworth Community College
         </h3>
         <h4 className="vertical-timeline-element-subtitle">Leicester, UK</h4>
-        <p>10 GCSE's achieved at grade A-C.</p>
+        <p>9 GCSE's achieved at grade A-C.</p>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );
