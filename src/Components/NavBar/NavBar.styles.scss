@@ -58,7 +58,7 @@ nav.responsive-toolbar {
       transition: 400ms ease all;
 
       &.active {
-        //when active bring in navbar from the left
+        //when active bring in navbar from the top
         top: 60px;
         height: 180px;
       }

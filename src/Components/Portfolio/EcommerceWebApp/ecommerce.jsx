@@ -21,7 +21,7 @@ const Ecommerce = () => {
           <p className="stack-item"><i>Firebase</i></p>
         </span>
         <p className="stack-item"><a href='https://phoenix-live.herokuapp.com/'>https://phoenix-live.herokuapp.com/ </a></p>
-        <span className='ima'>
+        <span className='git-image'>
         <a href="https://github.com/CalumBradbury24/Phoenix-Clothing">
           <Logo />
         </a>

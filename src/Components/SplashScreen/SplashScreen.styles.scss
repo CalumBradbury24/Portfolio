@@ -193,16 +193,13 @@
   }
   .H4 {
     font-size: 15px;
+    padding-left: 12.5px;
+    padding-right:12.5px ;
   }
   .P {
     font-size: 13px;
   }
   .splash-container {
   height: 28rem;
-  }
-}
-@media screen and (max-height: 812px){
-  .splash-container {
-    width: 20.75rem;
   }
 }
