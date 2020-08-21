@@ -23,7 +23,7 @@ const AirQualityMonitor = () => {
             <i>CSS</i>
           </p>
           <p className="stack-item">
-            <i>React.js</i>
+            <i>React.js (Redux, Hooks, Router)</i>
           </p>
           <p className="stack-item">
             <i>Node.js</i>

@@ -17,7 +17,7 @@ const Ecommerce = () => {
         <span className="stack">
           <p className="stack-item"><i>HTML5</i></p>
           <p className="stack-item"><i>CSS</i></p>
-          <p className="stack-item"><i>React.js</i></p>
+          <p className="stack-item"><i>React.js(Redux, Hooks, Router)</i></p>
           <p className="stack-item"><i>Firebase</i></p>
         </span>
         <p className="stack-item"><a href='https://phoenix-live.herokuapp.com/'>https://phoenix-live.herokuapp.com/ </a></p>
