@@ -3,47 +3,12 @@
     justify-content: center;
     padding: 5px;
     background-color: whitesmoke;
-    //border: 2px solid #dbffe1;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 200px;
+    width: 180px;
     transition: all 0.5s;
     cursor: pointer;
-    border-radius: 200px;
-    
-    
+    border-radius: 200px;    
 }
-
-span{
-   color:black;
-}
-.custom-button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .custom-button span:after {
-    content: '\21D3'; 
-    width : 15px;
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-
-.custom-button:hover span {
-    padding-right: 25px;
-    
-  }
-  
-  .custom-button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
 
 .button{
     text-decoration: none;

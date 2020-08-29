@@ -1,14 +1,12 @@
 import React from "react";
 import "./CustomButton.styles.scss";
 
-const CustomButton = () => {
+const CustomButton = ({link, text}) => {
   return (
     <div className="custom-button">
-      <span>
-        <a className = 'button' href="Calum Bradbury CV.pdf" download>
-          DOWNLOAD RESUME
+        <a className = 'button' href={link} download>
+          {text}
         </a>
-      </span>
     </div>
   );
 };

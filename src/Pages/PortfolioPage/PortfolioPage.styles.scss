@@ -22,11 +22,11 @@
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   margin-bottom:10px ;
   .card-title {
-    margin-top: 5px;
+    margin-top: 0px;
   }
   .text-container {
     grid-area: text;
-    margin: 25px;
+    margin: 10px 25px 25px 25px;
   }
   .links {
     grid-area: git;
@@ -40,24 +40,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-    .card-button {
-        border-radius: 200px;
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        width: 200px;
-        background-color: whitesmoke;
-        a{
-            text-decoration: none;
-            font-weight: bold;
-            color: black;
-            font: 16px 'Open Sans', sans-serif;
-        }
-        a:hover {
-            color: rgb(240, 144, 0);
-          }
     }
   }
 

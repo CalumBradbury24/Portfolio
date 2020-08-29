@@ -22,7 +22,7 @@ const ResumePage = () => {
         Inter Varsity Dance Championships (IVDC) at the Winter Gardens in
         Blackpool, UK.
       </p>
-      <CustomButton />
+      <CustomButton link={"Calum Bradbury CV.pdf"} text={'DOWNLOAD RESUME'}/>
     </div>
       <h4 className="Title">EDUCATION</h4>
       <EducationTimeline />

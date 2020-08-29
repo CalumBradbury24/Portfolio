@@ -1,6 +1,7 @@
 import React from "react";
 import "./ecommerce.styles.scss";
 import { ReactComponent as Logo } from "../../../assets/github.svg";
+import CustomButton from '../../CustomButton/CustomButton';
 
 const Ecommerce = () => {
   return (
@@ -20,9 +21,10 @@ const Ecommerce = () => {
           </a>
         </div>
         <div className="link-item">
-          <button className="card-button ">
-            <a href="https://phoenix-live.herokuapp.com/">LIVE WEB APP</a>
-          </button>
+        <CustomButton 
+            link={"https://phoenix-live.herokuapp.com/"}
+            text={"LIVE WEB APP"}
+          />
         </div>
       </div>
     </React.Fragment>

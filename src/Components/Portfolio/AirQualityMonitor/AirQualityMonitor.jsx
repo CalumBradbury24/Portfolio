@@ -2,7 +2,7 @@ import React from "react";
 import "./AirQualityMonitor.styles.scss";
 import air from "../../../assets/airMonitor.jpg";
 import { ReactComponent as Logo } from "../../../assets/github.svg";
-
+import CustomButton from '../../CustomButton/CustomButton';
 const AirQualityMonitor = () => {
   return (
     <React.Fragment>
@@ -23,9 +23,10 @@ const AirQualityMonitor = () => {
           </a>
         </div>
         <div className="link-item">
-          <button className="card-button ">
-            <a href="https://air-qual-monitor.herokuapp.com/">LIVE WEB APP</a>
-          </button>
+          <CustomButton 
+            link={"https://air-qual-monitor.herokuapp.com/"}
+            text={"LIVE WEB APP"}
+          />
         </div>
       </div>
     </React.Fragment>

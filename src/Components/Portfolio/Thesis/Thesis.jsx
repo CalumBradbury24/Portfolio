@@ -1,12 +1,12 @@
 import React from "react";
 import "./Thesis.styles.scss";
 import thesis from "../../../assets/thesis.jpg";
-import ThesisButton from "../../CustomButton/ThesisButton";
+import CustomButton from "../../CustomButton/CustomButton";
 
 const Thesis = () => {
   return (
     <React.Fragment>
-      <img src={thesis} className="thesis-image" alt='thesis'/>
+      <img src={thesis} className="thesis-image" alt="thesis" />
       <div className="text-container">
         <h2 className="card-title">Photonic Reservoir Computing</h2>
         <p>
@@ -17,12 +17,13 @@ const Thesis = () => {
           processing of high bandwidth signals.
         </p>
       </div>
-      <div className="links" id='thesis'>
-      <div className="link-item"/>  
+      <div className="links" id="thesis">
+        <div className="link-item" />
         <div className="link-item">
-          <span className="thesis-button">
-            <ThesisButton />
-          </span>
+          <CustomButton
+            link={"CalumBradburyThesis.pdf"}
+            text={"DOWNLOAD THESIS"}
+          />
         </div>
       </div>
     </React.Fragment>
