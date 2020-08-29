@@ -1,34 +1,33 @@
 import React from "react";
 import "./ecommerce.styles.scss";
-import clothesPic from "../../../assets/phoenixclothing.jpg";
 import { ReactComponent as Logo } from "../../../assets/github.svg";
 
 const Ecommerce = () => {
   return (
-    <div>
-      <img className='eco-image' src={clothesPic} alt="Phoenix Clothing" />
-      <div className='text-container'>
-        <h2>Ecommerce Web Application</h2>
+    <React.Fragment>
+      <div className="eco-image" />
+      <div className="text-container">
+        <h2 className="card-title">Ecommerce Web Application</h2>
         <p>
-          An ecommerce clothing store web application built as a hobby and in
-          order to learn advanced features of React.js such as Redux and Hooks.
+          An ecommerce clothing store hobby project built using React.js (Hooks,
+          Redux), HTML5, CSS & Firebase.
         </p>
-        <h4 className ='ecommerce-stack'>Project Stack:</h4>
-        <span className="stack">
-          <p className="stack-item"><i>HTML5</i></p>
-          <p className="stack-item"><i>CSS</i></p>
-          <p className="stack-item"><i>React.js(Redux, Hooks, Router)</i></p>
-          <p className="stack-item"><i>Firebase</i></p>
-        </span>
-        <p className="stack-item"><a href='https://phoenix-live.herokuapp.com/'>https://phoenix-live.herokuapp.com/ </a></p>
-        <span className='git-image'>
-        <a href="https://github.com/CalumBradbury24/Phoenix-Clothing">
-          <Logo />
-        </a>
-        </span>
       </div>
-    </div>
+      <div className="links" id='eco'>
+        <div className="link-item">
+          <a href="https://github.com/CalumBradbury24/Phoenix-Clothing">
+            <Logo />
+          </a>
+        </div>
+        <div className="link-item">
+          <button className="card-button ">
+            <a href="https://phoenix-live.herokuapp.com/">LIVE WEB APP</a>
+          </button>
+        </div>
+      </div>
+    </React.Fragment>
   );
 };
 
 export default Ecommerce;
+

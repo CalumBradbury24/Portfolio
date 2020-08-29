@@ -9,14 +9,11 @@ import ParticleProject from "../../Components/Portfolio/Particles/Particles";
 const Portfolio = () => {
   return (
     <div className="Portfolio">
-      <div className="container">
-        {" "}
-        <Ecommerce />
-      </div>
-      <div className="container"><AirQualityMonitor /> </div>
-      <div className="container"><ParticleProject /> </div>
-      <div className="container"><Thesis /></div>
-      <div className="container"><GuitarProject /></div>
+      <div className="container"><Ecommerce/></div>
+      <div className="container"><AirQualityMonitor/></div>
+      <div className="container"><ParticleProject/></div>
+      <div className="container"><Thesis/></div>
+      <div className="container"><GuitarProject/></div>
     </div>
   );
 };

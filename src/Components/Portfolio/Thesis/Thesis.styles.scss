@@ -1,42 +1,12 @@
 .thesis-image {
-  height: 450px;
-  width: 550px;
+  height: 100%;
+  width:100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
-
-.thesis-container {
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-top: solid 1px grey;
-  text-align: left;
-  padding-bottom: 15px;
+#thesis{
+  background: purple
 }
-.stack {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.thesis-button{
+  padding-right:5px ;
 }
-.stack-item {
-  display: flex;
-  justify-content: center !important;
-}
-
-.thesis-button {
-  display: flex;
-  justify-content: center;
-}
-@media screen and (max-width: 600px) {
-  .thesis-image {
-    height: 350px;
-    width: 450px;
-  }
-}
-@media screen and (max-width: 411px) {
-  .thesis-image {
-    height: 200px;
-    width: 280px;
-  }
-}
-

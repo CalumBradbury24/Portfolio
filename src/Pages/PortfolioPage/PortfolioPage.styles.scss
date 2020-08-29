@@ -1,18 +1,68 @@
-.Portfolio{
-    padding-bottom: 50px;
-    padding-top: 100px;
-    width: 95%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 10px auto 0;
-}   
+.Portfolio {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px auto 0;
+  background: url("../../assets/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-.container{
-    border: solid 1px grey;
-    width: min-content;
-    height: auto;
-    background: aliceblue;
-    margin-bottom: 25px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+.container {
+  display: grid;
+  grid-template-columns: 425px;
+  grid-template-rows: 360px 240px 90px;
+  grid-template-areas: "image" "text" "git";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  margin-bottom:10px ;
+  .card-title {
+    margin-top: 5px;
+  }
+  .text-container {
+    grid-area: text;
+    margin: 25px;
+  }
+  .links {
+    grid-area: git;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    .link-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card-button {
+        border-radius: 200px;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 200px;
+        background-color: whitesmoke;
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font: 16px 'Open Sans', sans-serif;
+        }
+        a:hover {
+            color: rgb(240, 144, 0);
+          }
+    }
+  }
+
+  svg {
+    height: 5vh;
+    cursor: pointer;
+  }
 }

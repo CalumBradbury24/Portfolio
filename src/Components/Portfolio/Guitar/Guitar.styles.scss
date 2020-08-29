@@ -1,27 +1,10 @@
 
   .guitar-image {
-    height: 450px;
-      width: 550px;
+    height: 100%;
+    width:100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
-
-  .guitar-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-top: solid 1px grey;
-    text-align: left;
-  }
-  @media screen and (max-width: 600px) {
-    .guitar-image {
-      height: 350px;
-      width: 450px;
-    }
-  }
-  @media screen and (max-width: 411px) {
-    .guitar-image {
-      height: 200px;
-    width: 280px;
-    }
-  }
+#guitar{
+    background: green;
+}
