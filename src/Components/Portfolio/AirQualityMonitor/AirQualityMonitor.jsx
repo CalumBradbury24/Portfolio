@@ -1,6 +1,6 @@
 import React from "react";
 import "./AirQualityMonitor.styles.scss";
-import air from "../../../assets/airmonitor.jpg";
+import air from "../../../assets/airMonitor.jpg";
 import { ReactComponent as Logo } from "../../../assets/github.svg";
 
 const AirQualityMonitor = () => {
