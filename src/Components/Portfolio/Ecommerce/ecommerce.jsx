@@ -8,7 +8,7 @@ const Ecommerce = () => {
     <React.Fragment>
       <div className="eco-image" />
       <div className="text-container">
-        <h2 className="card-title">Ecommerce Web Application</h2>
+        <h2 className="card-title">Ecommerce Web App</h2>
         <p>
           An ecommerce clothing store hobby project built using React.js (Hooks,
           Redux), HTML5, CSS & Firebase.

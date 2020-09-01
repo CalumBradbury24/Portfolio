@@ -11,7 +11,7 @@ const AirQualityMonitor = () => {
         <h2 className="card-title">Air Quality Monitor</h2>
         <p>
           A hobby project built using React.js, HTML5, CSS, Node.js, Express,js,
-          MongoDB, Raspberry Pi 3 Model B+, PMS5003 Particulate Matter Sensor
+          MongoDB, Raspberry Pi, PMS5003 Particulate Matter Sensor
           and PMS5003 Python Library. This project monitors particulate matter in the
           atmosphere and displays and analyses the readings on a dashboard.
         </p>
