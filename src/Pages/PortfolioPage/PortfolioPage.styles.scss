@@ -20,7 +20,7 @@
   border-radius: 18px;
   background: white;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-  margin-bottom:10px ;
+  margin-bottom:20px;
   .card-title {
     margin-top: 0px;
   }
@@ -47,4 +47,13 @@
     height: 5vh;
     cursor: pointer;
   }
+}
+
+
+@media screen and (max-width: 414px) {
+  .container {
+    grid-template-columns: 350px;
+  }
+
+  
 }

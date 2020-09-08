@@ -8,6 +8,7 @@ const ParticleProject = () => {
       <video className="particle-image" autoPlay loop muted playsInline>
         <source src="particles.webm" type="video/webm" />
         <source src="particles.mp4" type="video/mp4" />
+        Your browser does not support this video
       </video>
       <div className="text-container">
         <h2 className="card-title">Particle Explosion</h2>

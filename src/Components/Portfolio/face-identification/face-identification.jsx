@@ -11,8 +11,8 @@ const FaceIdentification = () => {
       <div className="text-container">
         <h2 className="card-title">Face Recognition Web App</h2>
         <p>
-          A web application built using React.js that detects a face in an
-          image.
+          A web application built using React.js and the Clarifai API that
+          detects a face in an image.
         </p>
       </div>
       <div className="links" id="face">
@@ -22,7 +22,7 @@ const FaceIdentification = () => {
           </a>
         </div>
         <div className="link-item">
-          <CustomButton link={""} text={"LIVE WEB APP"} />
+          <CustomButton link={"https://face-identify.herokuapp.com/"} text={"LIVE WEB APP"} />
         </div>
       </div>
     </React.Fragment>
