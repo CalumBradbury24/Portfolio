@@ -16,6 +16,7 @@ const AboutMe = () => {
             "Web Development",
             "React.js",
             "C++",
+            "Unreal Engine 4",
             "JavaScript",
             "HTML5",
             "CSS3",
