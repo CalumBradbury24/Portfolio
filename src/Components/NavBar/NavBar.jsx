@@ -7,7 +7,7 @@ const NavBar = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <nav className="responsive-toolbar" onMouseLeave = {navOpen ? ()=>  setNavOpen(false) : null}>
+    <nav className="responsive-toolbar" >
       <ul className={navOpen ? "active" : ""}>
       <figure onClick={() => setNavOpen(!navOpen)}>
           <img src={logo} height="40px" width="40px" alt="logo"></img>
@@ -18,6 +18,7 @@ const NavBar = () => {
             (location.pathname === "/" ? "stayOrange" : "default")
           }
           to="/"
+          onClick = {navOpen ? ()=>  setNavOpen(false) : null}
         >
           Home
         </Link>
@@ -27,6 +28,7 @@ const NavBar = () => {
             (location.pathname === "/resume" ? "stayOrange" : "default")
           }
           to="/resume"
+          onClick = {navOpen ? ()=>  setNavOpen(false) : null}
         >
           Resume
         </Link>
@@ -36,6 +38,7 @@ const NavBar = () => {
             (location.pathname === "/projects" ? "stayOrange" : "default")
           }
           to="projects"
+          onClick = {navOpen ? ()=>  setNavOpen(false) : null}
         >
           Portfolio
         </Link>
