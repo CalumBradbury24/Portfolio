@@ -11,8 +11,8 @@ const StockTracker = () => {
       </video>
       <div className="text-container">
         <h2 className="card-title">Personal Portfolio</h2>
-        <p>As an avid investor I decided to build a Web application using React.js (Hooks, Redux, Redux-persist), Firebase and the IEX cloud API to track my investment portfolio.</p>
-        <p>Due to the sensitive nature of this project it is not hosted on the web. Source code is available on my github account.</p>
+        <p className='description'>As an avid investor I decided to build a Web application using React.js (Hooks, Redux, Redux-persist), Firebase and the IEX cloud API to track my investment portfolio.</p>
+        <p className='description'>Due to the sensitive nature of this project it is not hosted on the web. Source code is available on my github account.</p>
       </div>
       <div className="links" id='stocks'>
         <div className="link-item">

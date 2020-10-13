@@ -9,7 +9,7 @@ const Thesis = () => {
       <img src={thesis} className="thesis-image" alt="thesis" />
       <div className="text-container">
         <h2 className="card-title">Photonic Reservoir Computing</h2>
-        <p>
+        <p className='description'> 
           My Master's thesis presented in partial fullfilment for the degree of
           MEng Electrical & Electronic Engineering at the University of
           Nottingham. This project consisted of the sucessful design of a novel

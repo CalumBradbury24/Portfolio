@@ -9,7 +9,7 @@ const AirQualityMonitor = () => {
       <img src={air} className="air-image" alt='air monitor'/>
       <div className="text-container">
         <h2 className="card-title">Air Quality Monitor</h2>
-        <p>
+        <p className='description'>
           A hobby project built using React.js, HTML5, CSS, Node.js, Express,js,
           MongoDB, Raspberry Pi, PMS5003 Particulate Matter Sensor
           and PMS5003 Python Library. This project monitors particulate matter in the

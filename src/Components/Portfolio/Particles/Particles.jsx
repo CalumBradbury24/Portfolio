@@ -12,7 +12,7 @@ const ParticleProject = () => {
       </video>
       <div className="text-container">
         <h2 className="card-title">Particle Explosion</h2>
-        <p>A particle explosion effect built as a mini C++ project.</p>
+        <p className='description'>A particle explosion effect built as a mini C++ project.</p>
       </div>
       <div className="links" id='particles'>
         <div className="link-item">
