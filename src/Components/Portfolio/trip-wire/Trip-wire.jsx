@@ -10,7 +10,7 @@ const TripWire = () => {
       </div>
       <div className="text-container">
         <h2 className="card-title">Laser Trip Wire</h2>
-        <p className='description'>
+        <p>
           A laser trip wire project using a Rasbperry Pi, photo resistor, laser
           pointer, pi camera module and Python. My cat is notorious for bringing
           mice into the house and leaving them alive for us to find later on. A

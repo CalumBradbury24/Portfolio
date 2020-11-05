@@ -7,12 +7,11 @@ const ParticleProject = () => {
     <React.Fragment>
       <video className="particle-image" autoPlay loop muted playsInline>
         <source src="particles.webm" type="video/webm" />
-        <source src="particles.mp4" type="video/mp4" />
         Your browser does not support this video
       </video>
       <div className="text-container">
         <h2 className="card-title">Particle Explosion</h2>
-        <p className='description'>A particle explosion effect built as a mini C++ project.</p>
+        <p>A particle explosion effect built as a mini C++ project.</p>
       </div>
       <div className="links" id='particles'>
         <div className="link-item">

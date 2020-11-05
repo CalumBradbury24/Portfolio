@@ -4,59 +4,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 10px auto 0;
   background: linear-gradient(247deg, #d32b34c5, #132e69);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 30s ease infinite;
   -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 30s ease infinite;
-
-  @-webkit-keyframes AnimationName {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  @-moz-keyframes AnimationName {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  @keyframes AnimationName {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
 }
 
 .container {
   display: grid;
-  grid-template-columns: 425px;
-  grid-template-rows: 360px 240px 90px;
+  grid-template-columns: 480px;
+  grid-template-rows: 400px 240px 90px;
   grid-template-areas: "image" "text" "git";
   border-radius: 18px;
   background: white;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-  margin-bottom:20px;
+  margin: 15px;
   .card-title {
     margin-top: 0px;
   }
@@ -77,20 +41,16 @@
       align-items: center;
       justify-content: center;
     }
-
   }
 
   svg {
-    height: 5vh;
+    height: 50px;
     cursor: pointer;
   }
 }
-
 
 @media screen and (max-width: 414px) {
   .container {
     grid-template-columns: 350px;
   }
-
-  
 }

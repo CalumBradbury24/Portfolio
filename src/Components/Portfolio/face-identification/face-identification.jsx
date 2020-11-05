@@ -10,7 +10,7 @@ const FaceIdentification = () => {
       <img src={face} className="face-image" alt="face" />
       <div className="text-container">
         <h2 className="card-title">Face Recognition Web App</h2>
-        <p className='description'>
+        <p>
           A web application built using React.js and the Clarifai API that
           detects a face in an image.
         </p>

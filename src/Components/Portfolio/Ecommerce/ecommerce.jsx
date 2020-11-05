@@ -9,7 +9,7 @@ const Ecommerce = () => {
       <img src={ecom} className="eco-image" alt="ecommerce" />
       <div className="text-container">
         <h2 className="card-title">Ecommerce Web App</h2>
-        <p className='description'>
+        <p>
           An ecommerce clothing store hobby project built using React.js (Hooks,
           Redux), HTML5, CSS & Firebase.
         </p>
